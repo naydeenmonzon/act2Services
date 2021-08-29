@@ -52,7 +52,7 @@ ul.navbar-nav li a{
     border: 1px solid transparent;
     transition: border .6s ease-in-out;
 }
-ul.navbar-nav li a:hover, a:focus{
+ul.navbar-nav li a:hover{
     border-bottom: 1px solid #a50000;
     background:content-box;
 }
