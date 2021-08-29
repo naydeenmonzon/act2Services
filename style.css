@@ -82,7 +82,7 @@ ul#foot.links {list-style: none; padding-left: 0;}
 /* --------- Home --------- */
 
 section#home{
-    background-image: url(/images/bgHILL2.jpg);
+    background-image: url(images/bgHILL2.jpg);
     background-color: rgba(255, 255, 255, 0.1);
     background-position: top;
     background-blend-mode:soft-light;
@@ -198,7 +198,7 @@ button#intro a:hover{ color: white;}
 
 section#about{
     height:max-content;
-    background-image: url(/images/BW-bridge.jpg) ;
+    background-image: url(images/BW-bridge.jpg) ;
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: top;
@@ -278,7 +278,7 @@ section#services{ height: 100vh;}
 
 /* --------- Agents --------- */
 section#agents{ height: max-content; 
-    background-image: url(/images/emptyroad.jpg);
+    background-image: url(images/emptyroad.jpg);
     background-size: cover;
     background-blend-mode:lighten;
 
