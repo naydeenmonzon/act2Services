@@ -54,7 +54,7 @@ ul.navbar-nav li a{
 }
 ul.navbar-nav li a:hover{
     text-decoration-line: underline;
-    text-decoration-color: #7c0000;
+    text-decoration-color: #ca0000;
     text-underline-position: below;
     -ms-text-underline-position: under;
     text-decoration-thickness: 4px;
