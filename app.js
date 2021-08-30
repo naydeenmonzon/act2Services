@@ -1,4 +1,4 @@
-gsap.registerPlugin(CSSPlugin)
+
 
 function highlightCO(x) {
     x.style.backgroundColor = "#011e4b";
@@ -168,3 +168,19 @@ function nohighlightSAN(x) {
     h5.style.color = "#7c0000";
     gsap.to(".st0.CA-S", {duration: .3, fill: "#0f425a"})
 }
+
+
+
+function cloneFunction() {
+    var itm = document.getElementById("pc-line");
+    var cln = itm.cloneNode(true);
+    var form = document.getElementById("measurement");
+    form.appendChild(cln);
+}
+
+function deleteclone() {
+    var form = document.getElementById("measurement");
+    var lstchld = form.lastChild;
+    lstchld.remove();
+  }
+

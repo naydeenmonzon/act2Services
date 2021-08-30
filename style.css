@@ -26,7 +26,10 @@ section{
     
 }
 
-
+.add-remove-btn{
+    stroke-width: 1px;
+    fill: #00567e;
+}
 /* --------- Navigation --------- */
 
 section#navigation{

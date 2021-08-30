@@ -111,13 +111,143 @@
 
     </section>
 
+
+
+
+
+
+
+
+    
     <section id="calculator">
         <div class="container" id="calculator">
-            <form>
 
+            <form class="row g-4 justify-content-evenly">
+
+
+
+                <fieldset class="row col-md-6 justify-content-md-end" id="pcs">
+                    <legend>Enter dimension <strong>per</strong> peice count and <strong>total</strong> weight</legend>
+                    <fieldset id="measurement">
+                        <div class="input-group col-md-4">
+                            <span class="input-group-text">pc</span>
+                            <input type="text" aria-label="pc" class="form-control">
+                            <span class="input-group-text">dims</span>
+                            <input type="text" aria-label="ln" class="form-control">
+                            <input type="text" aria-label="wd" class="form-control">
+                            <input type="text" aria-label="ht" class="form-control">
+                            <span class="input-group-text">wt</span>
+                            <input type="text" aria-label="wt" class="form-control">
+                        </div>
+                        <div class="input-group col-md-4">
+                            <span class="input-group-text">pc</span>
+                            <input type="text" aria-label="pc" class="form-control">
+                            <span class="input-group-text">dims</span>
+                            <input type="text" aria-label="ln" class="form-control">
+                            <input type="text" aria-label="wd" class="form-control">
+                            <input type="text" aria-label="ht" class="form-control">
+                            <span class="input-group-text">wt</span>
+                            <input type="text" aria-label="wt" class="form-control">
+                        </div>
+                        <div class="input-group col-md-4" id="pc-line">
+                            <span class="input-group-text">pc</span>
+                            <input type="text" aria-label="pc" class="form-control">
+                            <span class="input-group-text">dims</span>
+                            <input type="text" aria-label="ln" class="form-control">
+                            <input type="text" aria-label="wd" class="form-control">
+                            <input type="text" aria-label="ht" class="form-control">
+                            <span class="input-group-text">wt</span>
+                            <input type="text" aria-label="wt" class="form-control">
+                        </div>
+                    </fieldset>
+                    <button type="button" style="background-color: transparent; border:none;" class="col-1 m-1" id="add-btn" onclick="cloneFunction()">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" class="bi bi-plus-circle" viewBox="0 0 20 15">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" class="add-remove-btn"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"  class="add-remove-btn"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <button type="button" style="background-color: transparent; border:none;" class="col-1 m-1" id="add-btn" onclick="deleteclone()">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" class="bi bi-plus-circle" viewBox="0 0 20 15">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" class="add-remove-btn"/>
+                                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" class="add-remove-btn"/>
+                          </svg>
+                        </span>
+                    </button>
+                </fieldset>
+
+
+                <fieldset class="row col-md-4" id="UOM">
+                    <legend>Choose of Unit of Measurement</legend>
+                    <fieldset class="col-md-4" id="weight">
+                        <legend class="unit weight fs-6">Weight</legend>
+                        <div class=" form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              kilo
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                pounds
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="col-md-8" id="dims">
+                        <div class="col-md-12">
+                            <label for="inputdims" class="unit dims form-label">Dimension</label>
+                            <select id="inputdims" class="form-select">
+                              <option selected>Choose...</option>
+                              <option>in</option>
+                              <option>cm</option>
+                              <option>ft</option>
+                              <option>m</option>
+                              <option>mm</option>
+                            </select>
+                          </div>
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class="col-md-5">
+                    <div class="col-md-12">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </fieldset>
+
+
+
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
             </form>
+
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <div class="alert alert-primary d-flex align-items-center" role="alert">
