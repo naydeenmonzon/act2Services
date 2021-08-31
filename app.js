@@ -175,12 +175,71 @@ function cloneFunction() {
     var itm = document.getElementById("pc-line");
     var cln = itm.cloneNode(true);
     var form = document.getElementById("measurement");
-    form.appendChild(cln);
+    form.appendChild(cln).setAttribute("id", "extra-line");
 }
 
 function deleteclone() {
-    var form = document.getElementById("measurement");
-    var lstchld = form.lastChild;
-    lstchld.remove();
-  }
+    var xtra = document.getElementById("extra-line");
+    xtra.parentNode.removeChild(xtra);
+}
 
+function ACTdisableORG(){
+    var term = document.getElementById("input-terminal-ORG");
+    var zip = document.getElementById("inputZipORG");
+    term.setAttribute("disabled", "true");
+    zip.setAttribute("disabled", "true")
+}
+
+function PORTdisableORG(){
+    var term = document.getElementById("input-terminal-ORG");
+    var zip = document.getElementById("inputZipORG");
+    term.removeAttribute("disabled");
+    zip.setAttribute("disabled", "true")
+}
+
+function ZIPdisabledORG(){
+    var term = document.getElementById("input-terminal-ORG");
+    var zip = document.getElementById("inputZipORG");
+    term.removeAttribute("disabled");
+    zip.removeAttribute("disabled")
+}
+
+function ACTdisableDES(){
+    var term = document.getElementById("input-terminal-DES");
+    var zip = document.getElementById("inputZipDES");
+    term.setAttribute("disabled", "true");
+    zip.setAttribute("disabled", "true")
+}
+
+function PORTdisableDES(){
+    var term = document.getElementById("input-terminal-DES");
+    var zip = document.getElementById("inputZipDES");
+    term.removeAttribute("disabled");
+    zip.setAttribute("disabled", "true")
+}
+
+function ZIPdisabledDES(){
+    var term = document.getElementById("input-terminal-DES");
+    var zip = document.getElementById("inputZipDES");
+    term.removeAttribute("disabled");
+    zip.removeAttribute("disabled")
+}
+
+
+var actionNav = gsap.to('nav', {y:'-=60', duration:0.5, ease:'power2.in', paused:true});
+
+
+ScrollTrigger.create({
+  trigger: "nav",
+  start: "10px top",
+  end: 99999,
+  onUpdate: ({progress, direction, isActive}) => {
+    if (direction == -1) {
+      actionNav.reverse()
+    } if (direction == 1 ) {
+      actionNav.play()
+    } else if (direction == 1 && isActive == true) {
+      actionNav.play()
+    }
+  }
+});

@@ -28,7 +28,7 @@ section{
 
 .add-remove-btn{
     stroke-width: 1px;
-    fill: #00567e;
+    fill: #0d6efd;
 }
 /* --------- Navigation --------- */
 
@@ -158,6 +158,11 @@ div#home span.line{
 }
 
 
+section#calculator{
+    height: max-content;
+    padding-top: 10%;
+}
+
 
 
 /* --------- Intro --------- */
@@ -215,7 +220,6 @@ section#about2{
     z-index: 2;
     background: radial-gradient(ellipse at top, #011e4b, transparent),
     radial-gradient(ellipse at bottom, rgb(26, 46, 59), #0f425a);
-    
 }
 .container#history{padding: 8% 0% 0% 0%;
     margin: 0;
@@ -230,8 +234,8 @@ section#about2{
 }
 div#article{
     width: 100vw;
+    height: 55vh;
     background-color: white;
-    height: max-content;
     padding: 6rem;
 }
 #dan{
@@ -280,9 +284,27 @@ p#team {padding: 10% 0 5% 0; }
 /* --------- Services --------- */
 
 
-section#services{ height: 100vh;}
+section#services{
+    height:200vh;
+    background-image: url(images/highway-aerial.jpg) ;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 1;
+    width: 100vw;
+}
 
-
+#services-banner{
+    height: 60vh;
+    justify-content:stretch;
+    align-content:space-around;
+    width: 100vw;
+    padding:6%;
+    margin-top: -5%;
+}
+#services h1{color: white; margin:  30% 10% 10% 10%;
+    font-family: 'Rajdhani', sans-serif;
+}
 
 
 /* --------- Agents --------- */

@@ -483,7 +483,7 @@
     </section>
 
 
-
+    <!-- FOOTER -->
     <footer>
         <div class="row justify-content-xl-around align-content-center" id="foot">
             <div class="col-lg-4 align-self-center" id="contact">
@@ -511,15 +511,18 @@
             <div class="col-lg-2">
                 <h5>Quick Links</h5>
                 <ul class="links" id="foot">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="agents.html">Network Coverage</a></li>
                     <li><a href="track.html">Track & Trace</a></li>
                     <li><a href="resources.html">Resources</a></li>
-                    <li><a href="#">Schedule</a></li>
                 </ul>
                 <h5>Legal</h5>
-                <a data-bs-toggle="modal" href="#TCmodal">Terms & Condition</a>
+                <ul style="list-style: none;" class="p-0">
+                    <li><a data-bs-toggle="modal" href="#TCmodal">Terms & Condition</a></li>
+                    <li><a data-bs-toggle="modal" href="#disclaimer">Disclaimer</a></li>
+                </ul>
             </div>
             <div class="col-lg-2">
                 <h5>News & Announcements</h5>
@@ -567,22 +570,39 @@
         </script> ACT 2 Services
     </footer>
 
-
-    <div class="modal fade" id="TCmodal" tabindex="-1" aria-labelledby="TCModalLabel" aria-hidden="true">
+    <!-- Hidden Modals -->
+    <div class="modal fade" id="TCmodal" tabindex="-1" aria-labelledby="TCModalLabel" aria-hidden="true" data-bs-backdrop="static">
         <div class="modal-dialog modal-xl modal-dialog-scrollable">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="TCModalLabel">TERMS & CONDITIONS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" id="terms-text" >
                 <object data="assets/terms.txt" id="terms"></object>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Acknowledge</button>
             </div>
           </div>
         </div>
-      </div>
+    </div>
+    <div class="modal fade" id="disclaimer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="disclaimerLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="disclaimerLabel">Disclaimer</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"  id="terms-text">
+                <object data="assets/disclaimer.txt" id="terms"></object>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">I Acknowledge</button>
+            </div>
+          </div>
+        </div>
+    </div>
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">

@@ -1,0 +1,33 @@
+Type,Service,Min_Flat_Fee,Rate_per_unit,UOM,Additional_Details
+Accessorial,Airport Recovery,20,0,,
+Accessorial,Residential,20,0,,
+Accessorial,School,20,0,,
+Accessorial,Hotel,20,0,,
+Accessorial,Hospital,20,0,,
+Accessorial,Government Facilities,20,0,,
+Accessorial,Airway Bill Preparation,25,0,,
+Accessorial,Pier Pick Up & Deliveries,25,0,,
+Accessorial,Liftgate,25,0,,
+Accessorial,DG Handling,75,0,,
+Accessorial,Waiting Time - Bobtail ,0,60,hr,first 30 Minutes Free
+Accessorial,Waiting Time - Trailer,0,75,hr,first hour free
+Accessorial,FCCOD & COD Collection Fee,25,0,,Advanced Charges
+Accessorial,LD3 Loading,50,0,,
+Accessorial,Inside Delivery,15,0.022,lb,
+Accessorial,Convention ,22,0,,
+Accessorial,Extra Man,0,48,hr,2 Hour Minimum
+Accessorial,Ticket Counter Recovery/Delivery,25,0,,
+Accessorial,ULD Airport Recovery (LD3),50,0,,
+Accessorial,ULD Airport Recovery (LD7),75,0,,
+Accessorial,Bonded Cargo Fee,50,0,,
+Accessorial,Forward Air Recovery/Drop,40,0.55,lb,FWD Air Union City
+Warehouse,Storage Fees,15,0.02,day,"Local PU&D storage:
+First 3 days free Storage will begin on the 4th day"
+Warehouse,Labeling,,0.2,carton,
+Warehouse,In & Out Handling ,10,0.065,kg,
+Warehouse,Shrink-Wrapping,,3.5,pallet,
+Warehouse,Re-Palletizing,,6.25,pallet,w/o pallet cost
+Warehouse,Pallets – Standard,At Cost,,,
+Warehouse,Pallets – Grade A,At Cost,,,
+Warehouse,Photos ,,5,shipment,
+Warehouse,Special Projects – Labor Only,,,,per man
