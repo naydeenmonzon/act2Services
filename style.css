@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@media only screen and (max-width: 1250px){
+    #service-block{
+        flex-direction: column;
+    }
+    .service-card{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .service-card .list{
+        flex-direction: column;
+        display:flex;
+    }
+}
 
 /* Fonts:
 font-family: 'Cormorant', serif;
@@ -6,8 +22,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Rajdhani', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Orbitron', sans-serif;
 */
-
+h1, h2, h3, h4, h5, h6, h1, h2, h3, h4, h5, h6 {
+line-height: normal;
+}
 html{
     width: 100vw;
     overflow-x: hidden;
@@ -36,12 +55,26 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+.spacer{
+    width: 100vw;
+    height: 85vh;
+}
+.title{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+
+}
 /* --------- Navigation --------- */
+
 
 section#navigation{
     width: 100vw;
     position: fixed;
-    background-color: transparent;
+    background-color: white;
 }
 
 #navbarNavDropdown.collapse{
@@ -49,6 +82,7 @@ section#navigation{
     flex-direction:column;
     font-family: 'Roboto Mono', monospace;
     align-self: flex-end;
+    
 }
 ul.navbar-nav li{
     padding: .25rem .75rem;
@@ -227,17 +261,15 @@ section#about2{
     background: radial-gradient(ellipse at top, #011e4b, transparent),
     radial-gradient(ellipse at bottom, rgb(26, 46, 59), #0f425a);
 }
-.container#history{padding: 8% 0% 0% 0%;
+.container#history{
     margin: 0;
-
+    padding: 0;
     height: max-content;
     width: 100vw;
     justify-content:stretch;
     align-content:space-around;
 }
-#history h1{color: white; margin:  30% 10% 10% 10%;
-    font-family: 'Rajdhani', sans-serif;
-}
+
 div#article{
     width: 100vw;
     height: 55vh;
@@ -289,9 +321,10 @@ p#team {padding: 10% 0 5% 0; }
 
 /* --------- Services --------- */
 
-
+#services .spacer{
+    background-color: #031f3f69;
+}
 section#services{
-    height:200vh;
     background-image: url(images/highway-aerial.jpg) ;
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -299,19 +332,41 @@ section#services{
     z-index: 1;
     width: 100vw;
 }
+#service-block{
+    height: max-content;
+}
+#services.wrapper{
+    background-color: #031f3f;
+}
 
 #services-banner{
-    height: 60vh;
-    justify-content:stretch;
-    align-content:space-around;
-    width: 100vw;
-    padding:6%;
-    margin-top: -5%;
-}
-#services h1{color: white; margin:  30% 10% 10% 10%;
-    font-family: 'Rajdhani', sans-serif;
+    padding-top:6rem;
+    padding-bottom:6rem;
 }
 
+.material-icons.md-50{
+    font-size: 50px;
+    color: #ffffff;
+}
+.material-icons.md-40 {
+    font-size: 40px;
+    color: #7c0000;
+}
+
+#service-info{
+    height: 50vh;
+    background-color:#0f425a;
+}
+#service-card1, #service-card2{
+    background: #031f3f;
+    height: 6rem;
+    color: white;
+    box-shadow:  10px 10px #ffffff60;
+    width: 6rem;
+}
+.service-card{
+    box-shadow:  20px 20px #ffffff60;
+}
 
 /* --------- Agents --------- */
 section#agents{ height: max-content; 

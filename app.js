@@ -244,11 +244,11 @@ function ZIPdisabledDES(){
 }
 /*--------- ------- SCROLL --------- --------- */
 
-var actionNav = gsap.to('nav', {y:'-=60', duration:0.5, ease:'power2.in', paused:true});
+var actionNav = gsap.to('#navigation', {y:'-=70', duration:0.5, ease:'power2.in', paused:true});
 
 
 ScrollTrigger.create({
-  trigger: "nav",
+  trigger: "#nav",
   start: "10px top",
   end: 99999,
   onUpdate: ({progress, direction, isActive}) => {

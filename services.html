@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="js" href="app.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="app.js"></script>
 </head>
 <body>
@@ -30,7 +30,7 @@
                         <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.html" >Services</a>
+                        <a class="nav-link" href="services.html" >Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="agents.html">Network Coverage</a>
@@ -56,29 +56,100 @@
 
     <section id="services">
         <div id="wrapper" class="d-block">
-            <div class="row" id="services">
-                <h1 class="display-1 col-12 ">Services</h1>
-                <div class="col-12 bg-white" id="services-banner">
-                    <div class="row">
-                        <h5 class="display-5 col-12 my-5 row" id="history">Types</h5>
-
-                        <div class="col-3 card">
-                            <div class="card-header">
-                                <h3>Trucking</h3>
+            <div class="spacer" >
+                <h5 class="display-1 title" style="color: white;" id="history">Services</h5>
+            </div>
+            <div class="row wrapper p-5" id="services">
+                <div class="col-12 container" id="services-banner">
+                    <div class="row justify-content-evenly align-items-stretch gap-4 text-md-center" id="service-block">
+                        <div class="col-3  bg-light service-card py-5">
+                            <h3 class="display-5 col-12">Road Service</h3>
+                            <div class="row col-12 py-4">
+                                <div class="col text-md-start my-4 ps-4 list">
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">local_shipping</span>
+                                        <h4>Local Pickup & Delivery</h4>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">route</span>
+                                        <h4 class="col-auto">Linehaul</h4>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">airlines</span>
+                                        <h4 >Terminal Recovery & Transfer</h4>
+                                    </div>
+                                </div>
                             </div>
-                            <p>Trucking</p>
+                            <div class="col-12 row justify-content-end ">
+                                <div class="col-auto">
+                                    <button class="btn" style="background-color: #7c0000; color:white;">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-3 card">
-                            <p>Trucking</p>
+                        <div class="col-3  bg-light service-card py-5">
+                            <h3 class="display-5 col-12">Warehousing</h3>
+                            <div class="row col-12 py-4">
+                                <div class="col text-md-start my-4 ps-4 list">
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">policy</span>
+                                        <h4>Bonded Facility</h4>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">storage</span>
+                                        <h4 >Storage Solution</h4>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">inventory_2</span>
+                                        <h4 >Inventory Management</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 row justify-content-end px-5">
+                                <div class="col-auto">
+                                    <button class="btn" style="background-color: #7c0000; color:white;">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-3 card">
-                            <p>Trucking</p>
+                        <div class="col-3 bg-light  service-card py-5">
+                            <h2 class="display-5 col-12">Special Project</h2>
+                            <div class="row col-12 py-4">
+                                <div class="col text-md-start my-4 ps-4 list">
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">view_compact</span>
+                                        <h4 >Freight Packaging</h4>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">person_add_alt</span>
+                                        <h4 >Extra Labor</h4>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <span class="material-icons md-40">battery_alert</span>
+                                        <h4 >DG Handing</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 row justify-content-end px-5">
+                                <div class="col-auto">
+                                    <button class="btn" style="background-color: #7c0000; color:white;">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-1"></div>
                     </div>
 
+                </div>
+            </div>
+            <div id="service-info" >
+                <div class="container h-100 w-100">
+                    <div class="row h-75 justify-content-evenly gap-5 text-md-center">
+                        <div class="col align-self-center rounded-pill d-flex justify-content-center align-items-center" id="service-card1">
+                            <span class="material-icons m-3 md-50">list_alt</span>
+                            <h5>Tarriff</h5>
+                        </div>
+                        <div class="col  align-self-center rounded-pill d-flex justify-content-center align-items-center" id="service-card2">
+                            <span class="material-icons m-3 md-50">schedule_send</span>
+                            <h5>Service Directoy and Schedule</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
