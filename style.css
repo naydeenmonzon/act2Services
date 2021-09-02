@@ -30,6 +30,12 @@ section{
     stroke-width: 1px;
     fill: #0d6efd;
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 /* --------- Navigation --------- */
 
 section#navigation{
@@ -162,8 +168,8 @@ section#calculator{
     height: max-content;
     padding-top: 10%;
 }
-
-
+#grosswt, #chargewt, #volwt, #cbm{color: #7c0000;}
+.kg{color:  #003080;}
 
 /* --------- Intro --------- */
 
@@ -183,7 +189,7 @@ section#intro{
     justify-content: space-between;
     border-top: solid;
     border-bottom: solid;
-    border-color: #011e4b;
+    border-color: #003080;
     border-width: 1px;
 }
 .container#intro p{
@@ -200,9 +206,9 @@ button#intro{
 }
 button#intro a{
     text-decoration-line: none;
-    color: #011e4b;
+    color: #003080;
 }
-button#intro:hover{ background-color: #011e4b;}
+button#intro:hover{ background-color: #003080;}
 button#intro a:hover{ color: white;}
 
 

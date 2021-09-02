@@ -1,5 +1,13 @@
 
 
+function currencyFormat(num) {
+    return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+};
+
+function numberFormat(num) {
+    return num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+}
+
 function highlightCO(x) {
     x.style.backgroundColor = "#011e4b";
     x.style.color = "white";
@@ -170,18 +178,28 @@ function nohighlightSAN(x) {
 }
 
 
-
+/*--------- CLONE / DELETE / RESET --------- */
 function cloneFunction() {
     var itm = document.getElementById("pc-line");
     var cln = itm.cloneNode(true);
     var form = document.getElementById("measurement");
     form.appendChild(cln).setAttribute("id", "extra-line");
+    totaldimsNweight();
 }
 
 function deleteclone() {
     var xtra = document.getElementById("extra-line");
     xtra.parentNode.removeChild(xtra);
+    totaldimsNweight();
 }
+
+function resetbutton() {
+    var grosswt = document.getElementById("grosswt");
+    grosswt.setAttribute("value","0")
+}
+
+/*--------- --------------------------- --------- */
+/*--------- FROM / TO - DISABLE TERMINAL/ZIP --------- */
 
 function ACTdisableORG(){
     var term = document.getElementById("input-terminal-ORG");
@@ -224,7 +242,7 @@ function ZIPdisabledDES(){
     term.removeAttribute("disabled");
     zip.removeAttribute("disabled")
 }
-
+/*--------- ------- SCROLL --------- --------- */
 
 var actionNav = gsap.to('nav', {y:'-=60', duration:0.5, ease:'power2.in', paused:true});
 
@@ -235,7 +253,7 @@ ScrollTrigger.create({
   end: 99999,
   onUpdate: ({progress, direction, isActive}) => {
     if (direction == -1) {
-      actionNav.reverse()
+      actionNav.reverse();
     } if (direction == 1 ) {
       actionNav.play()
     } else if (direction == 1 && isActive == true) {
@@ -243,3 +261,84 @@ ScrollTrigger.create({
     }
   }
 });
+
+
+/*---------------- CALCULATOR ------------------- */
+
+
+
+let wtfactor = 1;
+document.getElementById("weight").addEventListener("change", updateweight)
+function updateweight(x){
+    wtfactor = Number(x.target.value);
+    totaldimsNweight()
+}
+
+let dimfactor=1;
+document.getElementById("inputdims").addEventListener("change", updateValue);
+function updateValue(e){
+    dimfactor = Number(e.target.value);
+    totaldimsNweight()
+}
+
+function multiplydims(p, l, w, h) {
+    let sum = 0
+    l = l/dimfactor;
+    w = w/dimfactor;
+    h = h/dimfactor;
+    sum = p*(l*w*h);
+    return sum
+}
+
+function totaldimsNweight() {
+    let weightsum = 0;
+    var weightLIST = [];
+    var dimsprodLIST = [];
+    let volumewt = 0;
+    let volumecbm = 0;
+    var cbmLIST =[];
+    var pc = document.getElementsByName("pc");
+    var ln = document.getElementsByName("ln");
+    var wd = document.getElementsByName("wd");
+    var ht = document.getElementsByName("ht");
+    var wt = document.getElementsByName("wt");
+    var lineITEM = document.getElementsByName("lineITEM");
+    
+    wt.forEach(i =>{
+      x = Number(i.value);
+      weightLIST.push(x)
+    });
+
+    for (i = 0; i < weightLIST.length; i++){
+        weightsum += weightLIST[i]
+    }
+    weightsum = weightsum/wtfactor
+    document.getElementById("grosswt").value = numberFormat(weightsum);
+    
+    for (i=0; i< lineITEM.length; i++){
+        p = pc[i].value;
+        l = ln[i].value;
+        w = wd[i].value;
+        h = ht[i].value;
+        x = multiplydims(p,l,w,h) /366;
+        y = multiplydims(p,l,w,h)
+        dimsprodLIST.push(x)
+        cbmLIST.push(y)
+    }
+    for (i = 0; i < dimsprodLIST.length; i++){
+        volumewt += dimsprodLIST[i] ;
+    }
+    document.getElementById("volwt").value = numberFormat(volumewt);
+
+    if (volumewt < weightsum){
+        document.getElementById("chargewt").value = numberFormat(weightsum);
+    }
+    else {
+        document.getElementById("chargewt").value = numberFormat(volumewt);
+    }
+    for (i=0; i<cbmLIST.length; i++){
+        volumecbm += cbmLIST[i];
+    }
+    volumecbm = volumecbm/61024
+    document.getElementById("cbm").value = volumecbm.toFixed(3);
+}
