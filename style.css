@@ -210,7 +210,7 @@ section#calculator{
 section#intro{
     background-color: rgb(255, 255, 255);
     display: block;
-    height: 45vh;
+    height: 50vh;
     padding: 4rem;
 }
 .container#intro{
@@ -245,6 +245,19 @@ button#intro a{
 button#intro:hover{ background-color: #003080;}
 button#intro a:hover{ color: white;}
 
+
+
+/* --------- Home Content --------- */
+section#home-content{
+    height: max-content;
+    background-image: url(images/plane-truck_dark-blue.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+#hc-wrapper{
+    height: 40vh;
+}
 
 /* --------- About Us --------- */
 
@@ -413,7 +426,10 @@ path.st4:hover{
 /* --------- Resources --------- */
 
 
-section#resources{ height: 100vh;}
+section#resources{
+    height: 100vh;
+
+}
 
 
 /* --------- Tracking --------- */
