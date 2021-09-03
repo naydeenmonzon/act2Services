@@ -77,13 +77,17 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     flex-direction: column;
     position:fixed;
-    top: 80vh;
-    left: 97vw;
+    top: 75vh;
+    left: 96.5vw;
     width: 3vw;
-    padding-left: 2px;
+    height: 20vh;
+    padding-right: 1rem;
+    padding-top: 1rem;
     text-align: left;
+    background-color: #7c0000;
+    color: white;
 }
-.fsc-text{font-weight: 900; padding: 0%; margin: 0%; font-size: 1.2rem;}
+.fsc-text{font-weight: 500; padding: 0%; margin: 0%; font-size: 1.2rem;}
 /* --------- Navigation --------- */
 
 
