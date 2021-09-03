@@ -16,6 +16,8 @@
     }
 }
 
+
+
 /* Fonts:
 font-family: 'Cormorant', serif;
 font-family: 'Open Sans', sans-serif;
@@ -25,7 +27,7 @@ font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Orbitron', sans-serif;
 */
 h1, h2, h3, h4, h5, h6, h1, h2, h3, h4, h5, h6 {
-line-height: normal;
+    line-height: normal;
 }
 html{
     width: 100vw;
@@ -72,9 +74,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 section#navigation{
+    height: 5rem;
     width: 100vw;
     position: fixed;
     background-color: white;
+    z-index: 1000;
 }
 
 #navbarNavDropdown.collapse{
@@ -129,6 +133,7 @@ ul#foot.links {list-style: none; padding-left: 0;}
 /* --------- Home --------- */
 
 section#home{
+    padding-top: 5rem;
     background-image: url(images/bgHILL2.jpg);
     background-color: rgba(255, 255, 255, 0.1);
     background-position: top;
@@ -260,77 +265,67 @@ section#home-content{
 }
 
 /* --------- About Us --------- */
-
-section#about{
+section#about-us{
+    background-color: #021b38;
+}
+#about-grid.grid-container{
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 90px;
+    grid-template-rows: 90vh 10vh 20vh 10vh 10vh max-content;
+}
+.title-cover{
+    background-image: url(images/BW-bridge.jpg);
+    background-repeat: no-repeat;
+    grid-row: 1;
+    grid-column: 1 / span 5;
+    padding-top: 5rem;
     height:max-content;
     background-image: url(images/BW-bridge.jpg) ;
-    background-size: 100vw;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    background-position: top;
-    z-index: 1
+    height: 100%;
 }
-section#about2{
-    z-index: 2;
-    background: radial-gradient(ellipse at top, #011e4b, transparent),
-    radial-gradient(ellipse at bottom, rgb(26, 46, 59), #0f425a);
-}
-.container#history{
-    margin: 0;
-    padding: 0;
-    height: max-content;
-    width: 100vw;
-    justify-content:stretch;
-    align-content:space-around;
-}
-
-div#article{
-    width: 100vw;
-    height: 55vh;
+.bg-banner{
+    grid-row: 2 / span 3;
+    grid-column: 1 / span 5;
     background-color: white;
-    padding: 6rem;
 }
-#dan{
-    position: absolute;
-    z-index: 20;
-    width: 25vw;
-    height: 30vh;
-    right: 5%;
-    top: 115%;
-    margin: 0% 5% ;
-}
-#team h4 {padding-top: 15rem;}
-#team ul li{height: 6rem;}
-#team h2{text-indent: 5rem;}
-.container#team{
-    width: 100vw;
-
-    align-items: center;
+.banner#quality{
+    grid-row: 3 / span 4;
+    grid-column: 2 / span 2;
     height: max-content;
-    color: white;
-    padding: 5% 0% 0% 0%;
-    margin: 6% 5%;
+    background-color: white;
 }
-#team li{background-color: transparent;
-    color: white;
-    height: 10rem !important;
+.item3#dan{
+    grid-row: 4 / span 5;
+    grid-column: 4;
+    height: fit-content;
 }
-.row#team{
-    width: 100%;
+.content#team{
+    grid-row: 6;
+    grid-column: 1 / span 5;
+    height: max-content;
 }
-p#team {padding: 10% 0 5% 0; }
-#bg.wrap{overflow: hidden;
-    position: relative;
+#team.bg{
+    background-image: url(images/Untitled-1.png);
+    background-blend-mode: darken;
+    background-size: 150% 125%;
+    grid-row: 5 / span 6;
+    grid-column: 1 / span 5;
+   opacity: .1;
 }
-#about2.bg{
-    position: absolute;
-    height: 200vh;
-    left: -20%;
-    bottom: -5%;
-    width: 180%;
-    z-index: 0;
-    opacity: .25;
-    object-position: center;
+#team li{background-color: transparent;}
+#team h5, h2{color: white;}
+.teamCard{
+    border: 1px solid unset;
+    height: 10rem;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
 }
+.teamCard .text-light{text-indent: 20px;}
 
 /* --------- Services --------- */
 
@@ -338,12 +333,10 @@ p#team {padding: 10% 0 5% 0; }
     background-color: #031f3f69;
 }
 section#services{
+    padding-top: 5rem;
     background-image: url(images/highway-aerial.jpg) ;
-    background-size: 100vw;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    background-position: top;
-    z-index: 1;
-    width: 100vw;
 }
 #service-block{
     height: max-content;
@@ -351,12 +344,10 @@ section#services{
 #services.wrapper{
     background-color: #031f3f;
 }
-
 #services-banner{
     padding-top:6rem;
     padding-bottom:6rem;
 }
-
 .material-icons.md-50{
     font-size: 50px;
     color: #ffffff;
@@ -365,7 +356,6 @@ section#services{
     font-size: 40px;
     color: #7c0000;
 }
-
 #service-info{
     height: 50vh;
     background-color:#0f425a;
@@ -382,19 +372,23 @@ section#services{
 }
 
 /* --------- Agents --------- */
-section#agents{ height: max-content; 
+section#agents{
+    padding-top: 5rem;
+    height: max-content; 
     background-image: url(images/emptyroad.jpg);
     background-size: cover;
     background-blend-mode:lighten;
-
 }
-#agents h1{padding-top: 10%; text-align: center;
+#agents h1{
+    padding-top: 5rem;
+    text-align: center;
     font-family: 'Rajdhani', sans-serif;
     color: white;
 }
-#map svg{height: 75vh; padding-bottom: 15%; margin: 1%;}
-
-
+#map svg{
+    height: 75vh;
+    padding-bottom: 15%;
+    margin: 1%;}
 .st0{fill:#0f425a;
     stroke:#FFFFFF;
     stroke-miterlimit:5;
@@ -416,20 +410,45 @@ path.st0:hover{
     fill: #7c0000;
     cursor: pointer;
 }
-
 path.st4:hover{
     fill: #7c0000;
     cursor: pointer;
 }
 
-
 /* --------- Resources --------- */
-
 
 section#resources{
     height: 100vh;
-
+    width: 100vw;
 }
+#left-side{
+    padding-top: 5rem;
+    z-index: 3;
+    background-color: #021b38;
+    height: 100vh;
+}
+#right-side{
+    z-index: 1;
+    background-color:whitesmoke;
+    height: 100vh;
+}
+#float{
+    z-index: 2;
+    padding-top: 5vh;
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width: 51vw;
+    font-size: 4rem;
+    color: tomato;
+    background-color:#7c0000;
+}
+#float.banner{
+    width: 50%;
+    background-color:#7c0000;
+}
+#left-side .container .row{margin: 4% 10%;}
 
 
 /* --------- Tracking --------- */

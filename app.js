@@ -342,3 +342,21 @@ function totaldimsNweight() {
     volumecbm = volumecbm/61024
     document.getElementById("cbm").value = volumecbm.toFixed(3);
 }
+
+
+
+
+function slider(){
+    var rightSide = document.getElementById("float");
+    gsap.to(rightSide, {
+        duration: 1,
+        x: "100%",
+        backgroundColor:"white",
+        onComplete: tweenComplete});
+
+    function tweenComplete() {
+      console.log("the tween is complete");
+    }
+}
+
+

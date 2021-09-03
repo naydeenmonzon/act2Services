@@ -7,11 +7,6 @@
     <title>ACT 2 Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="js" href="app.js">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
-    <script src="app.js"></script>
 </head>
 <body >
 
@@ -58,9 +53,39 @@
 
 
     <section id="resources" >
-
-
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col" id="left-side">
+            <din class="container">
+              <div class="row justify-content-sm ">
+                <h2 class="display-5 p-3">Tariff</h2>
+                <div class="list-group w-75">
+                  <button class="btn btn-outline-light text-start" role="button" id="slideme" onclick="slider()">
+                    Local Pick-Up & Delivery Rates
+                  </button>
+                  <button class="btn btn-outline-light text-start" role="button" id="slideme" onclick="slider()">Add-On Special Pick-Up & Delivery Rates</button>
+                  <a href="#" class="list-group-item list-group-item-action">Linehaul Rates</a>
+                  <a href="#" class="list-group-item list-group-item-action">CFS Handling Fees</a>
+                  <a href="#" class="list-group-item list-group-item-action">Accesoral Charges</a>
+                </div>
+              </div>
+            </din>
+          </div>
+          <div class="col" id="right-side">
+            
+          </div>
+        </div>
+        <div id="float">
+          <div class="float-block">
+            <div class="banner">
+              <p style="font-size: 5rem;">Lorem</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    
 
 
 
@@ -197,10 +222,14 @@
         </symbol>
     </svg>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/CSSRulePlugin.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="data.js"></script>
 </body>
 </html>
