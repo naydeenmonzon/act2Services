@@ -1,13 +1,13 @@
 Terminal,Area,M-F_8-5,M-F_afterhours,Saturday,Sunday,Holiday
-SFO,A,50,65,80,95,Call For Quote
-SFO,B,60,75,90,105,Call For Quote
-SFO,C,70,90,100,125,Call For Quote
-SFO,D,80,100,125,150,Call For Quote
-SFO,E,100,125,150,175,Call For Quote
-SFO,F,125,175,Call For Quote,Call For Quote,Call For Quote
-PDX,A,48.5,59.5,70.5,70.5,Call For Quote
-PDX,B,86,95,115,115,Call For Quote
-PDX,C,110,125,145,145,Call For Quote
-SEA,A,48.5,59.5,70.5,70.5,Call For Quote
-SEA,B,95,100,125,125,Call For Quote
-SEA,C,125,135,150,150,Call For Quote
+SFO,A,50.00,65.00,80.00,95.00,Call For Quote
+SFO,B,60.00,75.00,90.00,105.00,Call For Quote
+SFO,C,70.00,90.00,100.00,125.00,Call For Quote
+SFO,D,80.00,100.00,125.00,150.00,Call For Quote
+SFO,E,100.00,125.00,150.00,175.00,Call For Quote
+SFO,F,125.00,175.00,Call For Quote,Call For Quote,Call For Quote
+PDX,A,48.50,59.50,70.50,70.50,Call For Quote
+PDX,B,86.00,95.00,115.00,115.00,Call For Quote
+PDX,C,110.00,125.00,145.00,145.00,Call For Quote
+SEA,A,48.50,59.50,70.50,70.50,Call For Quote
+SEA,B,95.00,100.00,125.00,125.00,Call For Quote
+SEA,C,125.00,135.00,150.00,150.00,Call For Quote

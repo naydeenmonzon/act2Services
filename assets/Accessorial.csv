@@ -1,33 +1,32 @@
-Type,Service,Min_Flat_Fee,Rate_per_unit,UOM,Additional_Details
-Accessorial,Airport Recovery,20,0,,
-Accessorial,Residential,20,0,,
-Accessorial,School,20,0,,
-Accessorial,Hotel,20,0,,
-Accessorial,Hospital,20,0,,
-Accessorial,Government Facilities,20,0,,
-Accessorial,Airway Bill Preparation,25,0,,
-Accessorial,Pier Pick Up & Deliveries,25,0,,
-Accessorial,Liftgate,25,0,,
-Accessorial,DG Handling,75,0,,
-Accessorial,Waiting Time - Bobtail ,0,60,hr,first 30 Minutes Free
-Accessorial,Waiting Time - Trailer,0,75,hr,first hour free
-Accessorial,FCCOD & COD Collection Fee,25,0,,Advanced Charges
-Accessorial,LD3 Loading,50,0,,
-Accessorial,Inside Delivery,15,0.022,lb,
-Accessorial,Convention ,22,0,,
-Accessorial,Extra Man,0,48,hr,2 Hour Minimum
-Accessorial,Ticket Counter Recovery/Delivery,25,0,,
-Accessorial,ULD Airport Recovery (LD3),50,0,,
-Accessorial,ULD Airport Recovery (LD7),75,0,,
-Accessorial,Bonded Cargo Fee,50,0,,
-Accessorial,Forward Air Recovery/Drop,40,0.55,lb,FWD Air Union City
-Warehouse,Storage Fees,15,0.02,day,"Local PU&D storage:
-First 3 days free Storage will begin on the 4th day"
-Warehouse,Labeling,,0.2,carton,
-Warehouse,In & Out Handling ,10,0.065,kg,
-Warehouse,Shrink-Wrapping,,3.5,pallet,
-Warehouse,Re-Palletizing,,6.25,pallet,w/o pallet cost
-Warehouse,Pallets – Standard,At Cost,,,
-Warehouse,Pallets – Grade A,At Cost,,,
-Warehouse,Photos ,,5,shipment,
-Warehouse,Special Projects – Labor Only,,,,per man
+Service,Min_Fee,Rate_per_unit,UOM,Additional_Details
+Forward Air Recovery/Drop,40.00,0.55,lb,FWD Air Union City
+Airport Recovery,20.00,n/a,flat fee,
+Residential,20.00,n/a,flat fee,
+School,20.00,n/a,flat fee,
+Hotel,20.00,n/a,flat fee,
+Hospital,20.00,n/a,flat fee,
+Government Facilities,20.00,n/a,flat fee,
+Airway Bill Preparation,25.00,n/a,flat fee,
+Pier Pick Up & Deliveries,25.00,n/a,flat fee,
+Liftgate,25.00,n/a,flat fee,
+DG Handling,75.00,n/a,flat fee,
+Waiting Time - Bobtail ,0.00,60.00,hr,first 30 Minutes Free
+Waiting Time - Trailer,0.00,75.00,hr,first hour free
+FCCOD & COD Collection Fee,25.00,n/a,flat fee,Advanced Charges
+LD3 Loading,50.00,n/a,flat fee,
+Inside Delivery,15.00,0.022,lb,
+Convention ,22.00,n/a,flat fee,
+Extra Man,0.00,48,hr,2 Hour Minimum
+Ticket Counter Recovery/Delivery,25.00,n/a,flat fee,
+ULD Airport Recovery (LD3),50.00,n/a,flat fee,
+ULD Airport Recovery (LD7),75.00,n/a,flat fee,
+Bonded Cargo Fee,50.00,n/a,flat fee,
+Storage Fees,15.00,0.02,day,First 3 days free Storage will begin on the 4th day
+Labeling,0.00,0.20,carton,
+In & Out Handling ,10.00,0.065,kg,
+Shrink-Wrapping,0.00,3.50,pallet,
+Re-Palletizing,0.00,6.25,pallet,w/o pallet cost
+Pallets - Standard,0.00,At Cost,pallet,
+Pallets - Grade A,0.00,At Cost,pallet,
+Photos ,0.00,5.00,shipment,
+Special Projects - Labor Only,,,,per man
