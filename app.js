@@ -346,7 +346,23 @@ function totaldimsNweight() {
 
 
 
-function slider(){
+
+
+function sliderSpecial(){
+    var rightSide = document.getElementById("float");
+    var rate = document.getElementById("special");
+    gsap.to(rightSide, {
+        duration: 1,
+        x: "100%",
+        backgroundColor:"white",
+        onComplete: tweenComplete});
+
+    function tweenComplete() {
+      console.log("the tween is complete");
+    }
+}
+
+function sliderLH(){
     var rightSide = document.getElementById("float");
     gsap.to(rightSide, {
         duration: 1,
@@ -358,5 +374,19 @@ function slider(){
       console.log("the tween is complete");
     }
 }
+
+function sliderXtra(){
+    var rightSide = document.getElementById("float");
+    gsap.to(rightSide, {
+        duration: 1,
+        x: "100",
+        backgroundColor:"white",
+        onComplete: tweenComplete});
+
+    function tweenComplete() {
+      console.log("the tween is complete");
+    }
+}
+
 
 

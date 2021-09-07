@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACT 2 Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body >
@@ -53,33 +54,45 @@
 
 
     <section id="resources" >
-      <div class="container-fluid ">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col" id="left-side">
-            <din class="container">
-              <div class="row justify-content-sm ">
-                <h2 class="display-5 p-3">Tariff</h2>
-                <div class="list-group w-75">
-                  <button class="btn btn-outline-light text-start" role="button" id="slideme" onclick="slider()">
-                    Local Pick-Up & Delivery Rates
+          <div class="col-4" id="left-side">
+              <div class="row justify-content-around ">
+                <h2 class="display-5">Tariff</h2>
+                <div class="row  gap-3 w-75" >
+                  <button class="btn rounded-pill btn-outline-light text-start pill" role="button" id="slideL">
+                    Local Pick-Up & Delivery Rates <span class="material-icons float-end">double_arrow</span>
                   </button>
-                  <button class="btn btn-outline-light text-start" role="button" id="slideme" onclick="slider()">Add-On Special Pick-Up & Delivery Rates</button>
-                  <a href="#" class="list-group-item list-group-item-action">Linehaul Rates</a>
-                  <a href="#" class="list-group-item list-group-item-action">CFS Handling Fees</a>
-                  <a href="#" class="list-group-item list-group-item-action">Accesoral Charges</a>
+                  <button class="btn rounded-pill btn-outline-light text-start pill" role="button" id="slideSPD">Add-On Special Pick-Up & Delivery Rates <span class="material-icons float-end">double_arrow</span>
+                  </button>
+                  <button class="btn rounded-pill btn-outline-light text-start pill" role="button" id="slideLH">
+                    Linehaul Rates<span class="material-icons float-end">double_arrow</span>
+                  </button>
+                  <button class="btn rounded-pill btn-outline-light text-start pill" role="button" id="slideX">Accessorial Charges<span class="material-icons float-end">double_arrow</span></button>
+                  <button class="btn rounded-pill btn-outline-light text-start pill" role="button" id="slideAIRtrans">Airport Transfer Charges<span class="material-icons float-end">double_arrow</span></button>
+                  <button class="btn rounded-pill btn-outline-light text-start pill" role="button" id="slideCFS">CFS Charges<span class="material-icons float-end">double_arrow</span></button>
                 </div>
+      
               </div>
-            </din>
+
           </div>
-          <div class="col" id="right-side">
+          <div class="col-8" id="right-side">
             
           </div>
         </div>
-        <div id="float">
-          <div class="float-block">
-            <div class="banner">
-              <p style="font-size: 5rem;">Lorem</p>
+        <div id="float" >
+          <div class="float-block bg-white">
+            <div class="d-flex flex-column banner w-50 px-4 justify-content-end">
+              <p class="h4"  id="dataNAME"></p>
+              <span class="banner-bottom d-flex" ></span>
             </div>
+
+            <div class="container justify-content-between rate py-4 bg-white" id="LOCALtable"></div>
+            <div class="container justify-content-between rate py-4 bg-white" id="SPECIALtable"></div>
+            <div class="container justify-content-between rate py-4 bg-white" id="LHtable"></div>
+            <div class="container justify-content-between rate py-4 bg-white" id="XTRAtable"></div>
+            <div class="container justify-content-between rate py-4 bg-white" id="AIRtransfer"></div>
+            <div class="container justify-content-between rate py-4 bg-white" id="CFStable"></div>
           </div>
         </div>
       </div>
@@ -226,6 +239,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
