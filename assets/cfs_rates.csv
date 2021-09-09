@@ -1,12 +1,10 @@
 Charge Item,Rate,Minimum,Unit per Rate
-Import Service Fee,115,,per HAWB
-Airport Pickup from SFO,0.0435,40,"per lb, plus current fuel"
-CFS Handling Fee for dropped Cargo,0.02,25,per lb
-ULD Breakdown Fees,250,,Main deck
-ULD Breakdown Fees,195,,Lower deck LD7
-ULD Breakdown Fees,115,,Lower deck LD3
-Palletizing loose cargo ,50,,per pallet
-US Customs/USDA Exam,75,,per HAWB
-Storage Fees,0.04,30,per lb CWT
-,,,
-Free Days:  Day of arrival plus 2 days & First Weekend (All major public holidays are excluded),,,
+Import Service Fee,115.00,,per HAWB
+Airport Pickup from SFO,0.0435,40.00,"per lb, plus current fuel"
+CFS Handling Fee for dropped Cargo,0.02,25.00,per lb
+ULD Breakdown Fees,250.00,,Main deck
+ULD Breakdown Fees,195.00,,Lower deck LD7
+ULD Breakdown Fees,115.00,,Lower deck LD3
+Palletizing loose cargo ,50.00,,per pallet
+US Customs/USDA Exam,75.00,,per HAWB
+Storage Fees,0.04,30.00,per lb CWT

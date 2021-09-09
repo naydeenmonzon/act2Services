@@ -1,4 +1,4 @@
-Origin,Dest,Ship_M,Ship_T,Ship_W,Ship_TH,Ship_F,Ship_SAT
+Origin,Dest,Ship Mon,Ship Tue,Ship Wed,Ship Thu,Ship Fri,Ship Sat
 SFO,LAX,M - T 0900,T - W 0900,W - TH 0900,TH - F 0900,F - Sat 0900,Sat - M 0900
 SFO,PDX,M - W 1000,T - TH 1000,W - F 0900,TH - M 1000,F - M 1000,
 SFO,SEA,M - W 1400,T - TH 1400,W - TH 1400,TH - M 0900,F - M 0900,

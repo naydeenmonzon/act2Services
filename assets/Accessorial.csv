@@ -1,6 +1,4 @@
-Service,Min_Fee,Rate_per_unit,UOM,Additional_Details
-Forward Air Recovery/Drop,40.00,0.55,lb,FWD Air Union City
-Airport Recovery,20.00,n/a,flat fee,
+Service,Min Fee,Rate per unit,UOM,Additional Details
 Residential,20.00,n/a,flat fee,
 School,20.00,n/a,flat fee,
 Hotel,20.00,n/a,flat fee,
@@ -14,16 +12,16 @@ Waiting Time - Bobtail ,0.00,60.00,hr,first 30 Minutes Free
 Waiting Time - Trailer,0.00,75.00,hr,first hour free
 FCCOD & COD Collection Fee,25.00,n/a,flat fee,Advanced Charges
 LD3 Loading,50.00,n/a,flat fee,
-Inside Delivery,15.00,0.022,lb,
+Inside Delivery,15.00,0.02,lb,
 Convention ,22.00,n/a,flat fee,
-Extra Man,0.00,48,hr,2 Hour Minimum
+Extra Man,0.00,48.00,hr,2 Hour Minimum
 Ticket Counter Recovery/Delivery,25.00,n/a,flat fee,
 ULD Airport Recovery (LD3),50.00,n/a,flat fee,
 ULD Airport Recovery (LD7),75.00,n/a,flat fee,
 Bonded Cargo Fee,50.00,n/a,flat fee,
 Storage Fees,15.00,0.02,day,First 3 days free Storage will begin on the 4th day
 Labeling,0.00,0.20,carton,
-In & Out Handling ,10.00,0.065,kg,
+In & Out Handling ,10.00,0.07,kg,
 Shrink-Wrapping,0.00,3.50,pallet,
 Re-Palletizing,0.00,6.25,pallet,w/o pallet cost
 Pallets - Standard,0.00,At Cost,pallet,

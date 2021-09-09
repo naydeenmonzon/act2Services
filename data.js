@@ -30,25 +30,32 @@ var cells = rows.selectAll("td")
         .html(function(d) { return d.value; });
     return table;
 }
-
+// Buttons Data
 var localB = document.querySelector("#slideL");
 var slideB = document.querySelector("#slideSPD");
 var linehaulB = document.querySelector("#slideLH");
 var extraB = document.querySelector("#slideX");
 var AirTransB = document.querySelector("#slideAIRtrans");
 var cfsB = document.querySelector("#slideCFS");
-
 var dataNAME = document.getElementById("dataNAME");
-
-
-// Local Table Data
+var schedB = document.getElementById("schedL")
+// Box Wrapper
+var localBOX = document.getElementById("local-wrapper");
+var specialBOX = document.getElementById("special-wrapper");
+var extraBOX = document.getElementById("extra-wrapper");
+var transferBOX = document.getElementById("transfer-wrapper");
+var cfsBOX = document.getElementById("CFS-wrapper");
+var linehaulBOX = document.getElementById("linehaul-wrapper");
+var schedBOX = document.getElementById("sched-wrapper");
+// Table Data
 var local = document.getElementById("LOCALtable");
 var special = document.getElementById("SPECIALtable");
 var linehaul = document.getElementById("LHtable");
 var xtra = document.getElementById("XTRAtable");
 var AIRtransfer = document.getElementById("AIRtransfer");
+var recover = document.getElementById("recovery");
 var cfs = document.getElementById("CFStable");
-
+var sched = document.getElementById("schedtable")
 d3.csv("assets/local_rates.csv").then(function(data){
     columns = data.columns
     tabulate(local, data,columns)
@@ -73,9 +80,17 @@ d3.csv("assets/cfs_rates.csv").then(function(data){
     columns = data.columns
     tabulate(cfs, data,columns)
 });
+d3.csv("assets/recovery_rate.csv").then(function(data){
+    columns = data.columns
+    tabulate(recover, data,columns)
+});
+d3.csv("assets/shipping_sched.csv").then(function(data){
+    columns = data.columns
+    tabulate(sched, data,columns)
+});
 
 // Table Animation
-function datafloat(dataNAME, rate, caption){
+function datafloat(dataNAME, rate){
     var rightSide = document.getElementById("float");
     var tl = gsap.timeline();
     tl.to(rightSide, {
@@ -93,12 +108,9 @@ function datafloat(dataNAME, rate, caption){
         xPercent:-106,
         duration: 1.5,
         ease: "back.out(1.7)",
-        opacity:1})
-    tl.to(caption,{
-        display:"none"
-    });
+        opacity:1});
 }
-function reverse(dataNAME, rate, caption){
+function reverse(dataNAME, rate){
     dataNAME.innerHTML="";
     var tl = gsap.timeline();
     tl.to(dataNAME,{
@@ -107,10 +119,7 @@ function reverse(dataNAME, rate, caption){
     tl.to(rate,{
         xPercent:106,
         opacity: 0,
-        ease: "back.in(1.7)",})
-    tl.to(caption,{
-        display:"none"
-    });
+        ease: "back.in(1.7)",});
     tl.duration(3)
     
 }
@@ -118,74 +127,90 @@ function reverse(dataNAME, rate, caption){
 
 // Slide Function
 localB.onclick = function(){
-    var caption = document.getElementById("LOCALcaption");
-    reverse(dataNAME,special, caption);
-    reverse(dataNAME,linehaul, caption);
-    reverse(dataNAME,xtra, caption);
-    reverse(dataNAME,AIRtransfer, caption);
-    reverse(dataNAME,cfs, caption);
+    reverse(dataNAME,specialBOX);
+    reverse(dataNAME,linehaulBOX);
+    reverse(dataNAME,extraBOX);
+    reverse(dataNAME,transferBOX);
+    reverse(dataNAME,cfsBOX);
+    reverse(dataNAME,schedBOX)
     var nameTEXT = "Local Pick-Up & Delivery Rates";
     dataNAME.textContent = nameTEXT;
-    var rate = local;
-    datafloat(dataNAME, rate,caption);
+    var rate = localBOX;
+    datafloat(dataNAME, rate);
     
 }
 
 slideB.onclick = function(){
-    var caption = document.getElementById("SPECIALcaption");
-    reverse(dataNAME,local, caption);
-    reverse(dataNAME,linehaul, caption);
-    reverse(dataNAME,xtra, caption);
-    reverse(dataNAME,AIRtransfer, caption);
-    reverse(dataNAME,cfs, caption);
+    reverse(dataNAME,localBOX);
+    reverse(dataNAME,linehaulBOX);
+    reverse(dataNAME,extraBOX);
+    reverse(dataNAME,transferBOX);
+    reverse(dataNAME,cfsBOX);
+    reverse(dataNAME,schedBOX)
     var nameTEXT ="Special Local P&D Rates";
     dataNAME.textContent = nameTEXT;
-    var rate = special;
-    datafloat(dataNAME, rate, caption);
+    var rate = specialBOX;
+    datafloat(dataNAME, rate);
 };
 
 linehaulB.onclick = function(){
-    reverse(dataNAME,local);
-    reverse(dataNAME,special);
-    reverse(dataNAME,xtra);
-    reverse(dataNAME,AIRtransfer);
-    reverse(dataNAME,cfs);
+    reverse(dataNAME,localBOX);
+    reverse(dataNAME,specialBOX);
+    reverse(dataNAME,extraBOX);
+    reverse(dataNAME,transferBOX);
+    reverse(dataNAME,cfsBOX);
+    reverse(dataNAME,schedBOX)
     var nameTEXT ="Linehaul Rates";
     dataNAME.textContent = nameTEXT;
-    var rate = linehaul;
+    var rate = linehaulBOX;
     datafloat(dataNAME, rate);
 };
 
-extraB.onclick = function(){
-    reverse(dataNAME,local);
-    reverse(dataNAME,special);
-    reverse(dataNAME,linehaul);
-    reverse(dataNAME,AIRtransfer);
-    reverse(dataNAME,cfs);
+extraB.onclick = function special(){
+    reverse(dataNAME,localBOX);
+    reverse(dataNAME,specialBOX);
+    reverse(dataNAME,linehaulBOX);
+    reverse(dataNAME,transferBOX);
+    reverse(dataNAME,cfsBOX);
+    reverse(dataNAME,schedBOX)
     var nameTEXT ="Accessorial Charges";
     dataNAME.textContent = nameTEXT;
-    var rate = xtra;
+    var rate = extraBOX;
     datafloat(dataNAME, rate);
 };
 AirTransB.onclick = function(){
-    reverse(dataNAME,local);
-    reverse(dataNAME,special);
-    reverse(dataNAME,linehaul);
-    reverse(dataNAME,xtra);
-    reverse(dataNAME,cfs);
-    var nameTEXT ="Airport Transfer Fees";
+    reverse(dataNAME,localBOX);
+    reverse(dataNAME,specialBOX);
+    reverse(dataNAME,linehaulBOX);
+    reverse(dataNAME,extraBOX);
+    reverse(dataNAME,cfsBOX);
+    reverse(dataNAME,schedBOX)
+    var nameTEXT ="Recovery & Transfer Fees";
     dataNAME.textContent = nameTEXT;
-    var rate = AIRtransfer;
+    var rate = transferBOX;
     datafloat(dataNAME, rate);
 };
 cfsB.onclick = function(){
-    reverse(dataNAME,local);
-    reverse(dataNAME,special);
-    reverse(dataNAME,linehaul);
-    reverse(dataNAME,xtra);
-    reverse(dataNAME,AIRtransfer);
+    reverse(dataNAME,localBOX);
+    reverse(dataNAME,specialBOX);
+    reverse(dataNAME,linehaulBOX);
+    reverse(dataNAME,extraBOX);
+    reverse(dataNAME,transferBOX);
+    reverse(dataNAME,schedBOX)
     var nameTEXT ="CFS Fees";
     dataNAME.textContent = nameTEXT;
-    var rate = cfs;
+    var rate = cfsBOX;
+    datafloat(dataNAME, rate);
+};
+schedB.onclick = function(){
+    reverse(dataNAME,localBOX);
+    reverse(dataNAME,specialBOX);
+    reverse(dataNAME,linehaulBOX);
+    reverse(dataNAME,extraBOX);
+    reverse(dataNAME,transferBOX);
+    reverse(dataNAME,cfsBOX);
+    var nameTEXT ="Linehaul Schedule";
+    dataNAME.textContent = nameTEXT;
+    var rate = schedBOX;
     datafloat(dataNAME, rate);
 };
