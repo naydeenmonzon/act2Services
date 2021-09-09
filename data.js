@@ -7,8 +7,7 @@ const f = d3.format("." + p + "r");
 // The table generation function
 function tabulate(dataID, data, columns) {
     var table = d3.select(dataID).append("table").attr("class", "table table-bordered table-hover table-sm")
-        caption = table.append("caption").attr("name", "caption").text(),
-        thead = table.append("thead").style("background-color","#021b38"),
+        thead = table.append("thead").style("background-color","#021b38");
         tbody = table.append("tbody");
 thead.append("tr")
     .selectAll("th")
@@ -38,7 +37,7 @@ var linehaulB = document.querySelector("#slideLH");
 var extraB = document.querySelector("#slideX");
 var AirTransB = document.querySelector("#slideAIRtrans");
 var cfsB = document.querySelector("#slideCFS");
-var caption = document.getElementsByName("caption");
+
 var dataNAME = document.getElementById("dataNAME");
 
 
@@ -76,7 +75,7 @@ d3.csv("assets/cfs_rates.csv").then(function(data){
 });
 
 // Table Animation
-function datafloat(dataNAME, rate){
+function datafloat(dataNAME, rate, caption){
     var rightSide = document.getElementById("float");
     var tl = gsap.timeline();
     tl.to(rightSide, {
@@ -94,9 +93,12 @@ function datafloat(dataNAME, rate){
         xPercent:-106,
         duration: 1.5,
         ease: "back.out(1.7)",
-        opacity:1});
+        opacity:1})
+    tl.to(caption,{
+        display:"none"
+    });
 }
-function reverse(dataNAME, rate){
+function reverse(dataNAME, rate, caption){
     dataNAME.innerHTML="";
     var tl = gsap.timeline();
     tl.to(dataNAME,{
@@ -106,6 +108,9 @@ function reverse(dataNAME, rate){
         xPercent:106,
         opacity: 0,
         ease: "back.in(1.7)",})
+    tl.to(caption,{
+        display:"none"
+    });
     tl.duration(3)
     
 }
@@ -113,28 +118,30 @@ function reverse(dataNAME, rate){
 
 // Slide Function
 localB.onclick = function(){
-    reverse(dataNAME,special);
-    reverse(dataNAME,linehaul);
-    reverse(dataNAME,xtra);
-    reverse(dataNAME,AIRtransfer);
-    reverse(dataNAME,cfs);
+    var caption = document.getElementById("LOCALcaption");
+    reverse(dataNAME,special, caption);
+    reverse(dataNAME,linehaul, caption);
+    reverse(dataNAME,xtra, caption);
+    reverse(dataNAME,AIRtransfer, caption);
+    reverse(dataNAME,cfs, caption);
     var nameTEXT = "Local Pick-Up & Delivery Rates";
     dataNAME.textContent = nameTEXT;
     var rate = local;
-    datafloat(dataNAME, rate);
-    caption.textContent = "test"
+    datafloat(dataNAME, rate,caption);
+    
 }
 
 slideB.onclick = function(){
-    reverse(dataNAME,local);
-    reverse(dataNAME,linehaul);
-    reverse(dataNAME,xtra);
-    reverse(dataNAME,AIRtransfer);
-    reverse(dataNAME,cfs);
+    var caption = document.getElementById("SPECIALcaption");
+    reverse(dataNAME,local, caption);
+    reverse(dataNAME,linehaul, caption);
+    reverse(dataNAME,xtra, caption);
+    reverse(dataNAME,AIRtransfer, caption);
+    reverse(dataNAME,cfs, caption);
     var nameTEXT ="Special Local P&D Rates";
     dataNAME.textContent = nameTEXT;
     var rate = special;
-    datafloat(dataNAME, rate);
+    datafloat(dataNAME, rate, caption);
 };
 
 linehaulB.onclick = function(){

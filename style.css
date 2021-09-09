@@ -487,7 +487,7 @@ section#resources{
     left:-31%;
     height: 100%;
     width: 65vw;
-    color: white;
+
     background-color:#7c0000;
 
 }
@@ -520,7 +520,15 @@ section#resources{
     overflow-y: auto;
     overflow-x: hidden;
 }
-
+div#LOCALcaption{
+    display: none;
+}
+div#SPECIALcaption{
+    display: none;
+}
+#LOCALcaption p, strong{
+    color: rgb(0, 0, 0);
+}
 /* --------- Tracking --------- */
 
 
