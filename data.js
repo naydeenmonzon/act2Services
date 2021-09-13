@@ -1,5 +1,4 @@
 gsap.registerPlugin(TextPlugin);
-
 const p = d3.precisionRound(0.01, 1.01);
 const f = d3.format("." + p + "r");
 
@@ -124,6 +123,7 @@ function reverse(dataNAME, rate){
     
 }
 
+var resources = document.getElementById("resources").addEventListener("change",
 
 // Slide Function
 localB.onclick = function(){
@@ -138,8 +138,6 @@ localB.onclick = function(){
     var rate = localBOX;
     datafloat(dataNAME, rate);
     
-}
-
 slideB.onclick = function(){
     reverse(dataNAME,localBOX);
     reverse(dataNAME,linehaulBOX);
@@ -214,3 +212,12 @@ schedB.onclick = function(){
     var rate = schedBOX;
     datafloat(dataNAME, rate);
 };
+
+
+
+
+}
+)
+
+
+

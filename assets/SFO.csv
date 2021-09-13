@@ -1,0 +1,723 @@
+Zip Code,City Name,Name Type,County,State,Terminal,Zone,latitude,longitude
+94002,Belmont,Primary City Name,San Mateo,CA,SFO,A,37.5,-122.3
+94005,Brisbane,Primary City Name,San Mateo,CA,SFO,A,37.68,-122.41
+94010,Burlingame,Primary City Name,San Mateo,CA,SFO,A,37.56,-122.37
+94010,Hillsborough,Alternate City Name,San Mateo,CA,SFO,C,37.56,-122.37
+94011,Burlingame,Primary City Name,San Mateo,CA,SFO,A,37.57,-122.34
+94014,Colma,Alternate City Name,San Mateo,CA,SFO,A,37.69,-122.45
+94014,Daly City,Primary City Name,San Mateo,CA,SFO,A,37.69,-122.45
+94015,Broadmoor Village,Alternate City Name,San Mateo,CA,SFO,A,37.67,-122.47
+94015,Daly City,Primary City Name,San Mateo,CA,SFO,A,37.67,-122.47
+94016,Daly City,Primary City Name,San Mateo,CA,SFO,A,37.7,-122.45
+94017,Daly City,Primary City Name,San Mateo,CA,SFO,A,37.69,-122.47
+94018,El Granada,Primary City Name,San Mateo,CA,SFO,S,37.5,-122.47
+94019,Half Moon Bay,Primary City Name,San Mateo,CA,SFO,S,37.44,-122.41
+94020,La Honda,Primary City Name,San Mateo,CA,SFO,S,37.28,-122.24
+94021,Loma Mar,Primary City Name,San Mateo,CA,SFO,S,37.27,-122.28
+94022,Los Altos,Primary City Name,Santa Clara,CA,SFO,C,37.36,-122.14
+94022,Los Altos Hills,Alternate City Name,Santa Clara,CA,SFO,C,37.36,-122.14
+94023,Los Altos,Primary City Name,Santa Clara,CA,SFO,C,37.37,-122.11
+94024,Los Altos,Primary City Name,Santa Clara,CA,SFO,C,37.34,-122.11
+94024,Los Altos Hills,Alternate City Name,Santa Clara,CA,SFO,C,37.34,-122.11
+94025,Menlo Park,Primary City Name,San Mateo,CA,SFO,A,37.45,-122.17
+94025,West Menlo Park,Alternate City Name,San Mateo,CA,SFO,A,37.45,-122.17
+94026,Menlo Park,Primary City Name,San Mateo,CA,SFO,A,37.47,-122.18
+94027,Atherton,Primary City Name,San Mateo,CA,SFO,A,37.45,-122.2
+94027,Menlo Park,Alternate City Name,San Mateo,CA,SFO,A,37.45,-122.2
+94028,Menlo Park,Alternate City Name,San Mateo,CA,SFO,A,37.37,-122.21
+94028,Portola Valley,Primary City Name,San Mateo,CA,SFO,A,37.37,-122.21
+94030,Millbrae,Primary City Name,San Mateo,CA,SFO,A,37.59,-122.4
+94035,Moffett Field,Alternate City Name,Santa Clara,CA,SFO,C,37.41,-122.05
+94035,Mountain View,Primary City Name,Santa Clara,CA,SFO,C,37.41,-122.05
+94037,Montara,Primary City Name,San Mateo,CA,SFO,S,37.54,-122.5
+94038,Moss Beach,Primary City Name,San Mateo,CA,SFO,S,37.51,-122.5
+94039,Mountain View,Primary City Name,Santa Clara,CA,SFO,C,37.39,-122.07
+94040,Mountain View,Primary City Name,Santa Clara,CA,SFO,C,37.38,-122.08
+94041,Mountain View,Primary City Name,Santa Clara,CA,SFO,C,37.39,-122.08
+94042,Mountain View,Primary City Name,Santa Clara,CA,SFO,C,37.4,-122.08
+94043,Mountain View,Primary City Name,Santa Clara,CA,SFO,C,37.41,-122.05
+94044,Pacifica,Primary City Name,San Mateo,CA,SFO,C,37.61,-122.48
+94060,Pescadero,Primary City Name,San Mateo,CA,SFO,S,37.2,-122.3
+94061,Redwood City,Primary City Name,San Mateo,CA,SFO,A,37.46,-122.24
+94061,Woodside,Alternate City Name,San Mateo,CA,SFO,C,37.46,-122.24
+94062,Emerald Hills,Alternate City Name,San Mateo,CA,SFO,C,37.4,-122.29
+94062,Palomar Park,Alternate City Name,San Mateo,CA,SFO,C,37.4,-122.29
+94062,Redwood City,Primary City Name,San Mateo,CA,SFO,A,37.4,-122.29
+94062,Woodside,Alternate City Name,San Mateo,CA,SFO,C,37.4,-122.29
+94063,Redwood City,Primary City Name,San Mateo,CA,SFO,A,37.49,-122.21
+94064,Redwood City,Primary City Name,San Mateo,CA,SFO,A,37.46,-122.25
+94065,Redwood City,Primary City Name,San Mateo,CA,SFO,A,37.53,-122.24
+94066,San Bruno,Primary City Name,San Mateo,CA,SFO,A,37.62,-122.43
+94070,San Carlos,Primary City Name,San Mateo,CA,SFO,A,37.49,-122.26
+94074,San Gregorio,Primary City Name,San Mateo,CA,SFO,S,37.33,-122.34
+94080,South San Francisco,Primary City Name,San Mateo,CA,SFO,A,37.65,-122.42
+94083,South San Francisco,Primary City Name,San Mateo,CA,SFO,A,37.64,-122.41
+94085,Sunnyvale,Primary City Name,Santa Clara,CA,SFO,C,37.38,-122.01
+94086,Sunnyvale,Primary City Name,Santa Clara,CA,SFO,C,37.36,-122.02
+94087,Sunnyvale,Primary City Name,Santa Clara,CA,SFO,C,37.35,-122.03
+94088,Onizuka AFB,Alternate City Name,Santa Clara,CA,SFO,C,37.39,-122.03
+94088,Sunnyvale,Primary City Name,Santa Clara,CA,SFO,C,37.39,-122.03
+94089,Sunnyvale,Primary City Name,Santa Clara,CA,SFO,C,37.41,-122.02
+94102,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.42
+94103,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.77,-122.41
+94104,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.4
+94105,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.39
+94107,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.76,-122.39
+94108,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.41
+94109,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.42
+94110,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.74,-122.41
+94111,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.8,-122.4
+94112,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.72,-122.44
+94114,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.75,-122.43
+94115,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.43
+94116,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.74,-122.48
+94117,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.77,-122.45
+94118,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.46
+94119,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.45
+94120,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.4
+94121,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.77,-122.49
+94122,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.76,-122.48
+94123,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.8,-122.43
+94124,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.73,-122.38
+94125,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.73,-122.38
+94126,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.39
+94127,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.74,-122.46
+94128,San Francisco,Primary City Name,San Mateo,CA,SFO,A,37.61,-122.38
+94129,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.46
+94130,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.82,-122.37
+94131,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.74,-122.44
+94132,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.72,-122.48
+94133,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.8,-122.41
+94134,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.72,-122.41
+94137,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.4
+94139,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.4
+94140,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.75,-122.41
+94141,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.76,-122.41
+94142,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.41
+94143,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.76,-122.45
+94144,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.46
+94145,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.4
+94146,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.75,-122.43
+94147,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.8,-122.43
+94151,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.39
+94158,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.77,-122.39
+94159,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.45
+94160,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.71,-122.4
+94161,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.4
+94163,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.4
+94164,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.78,-122.42
+94172,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.76,-122.48
+94177,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.79,-122.39
+94188,San Francisco,Primary City Name,San Francisco,CA,SFO,A,37.74,-122.38
+94203,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94204,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.6,-121.44
+94205,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.47,-121.44
+94206,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.49,-121.45
+94207,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94208,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94209,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94211,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94229,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94230,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.47,-121.44
+94232,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94234,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94235,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94236,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94237,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94239,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94240,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94244,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94245,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94247,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94248,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94249,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.57,-121.46
+94250,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94252,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94254,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94256,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94257,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94258,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94259,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94261,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94262,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94263,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94267,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94268,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94269,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94271,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94273,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94274,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94277,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94278,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.57,-121.46
+94279,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94280,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94282,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94283,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.47,-121.44
+94284,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94285,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94287,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94288,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94289,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94290,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94291,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94293,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94294,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94295,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94296,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.57,-121.5
+94297,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+94298,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+94299,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.56,-121.46
+94301,Palo Alto,Primary City Name,Santa Clara,CA,SFO,A,37.44,-122.15
+94302,Palo Alto,Primary City Name,Santa Clara,CA,SFO,A,37.44,-122.15
+94303,East Palo Alto,Alternate City Name,San Mateo,CA,SFO,A,37.45,-122.1
+94303,Palo Alto,Primary City Name,San Mateo,CA,SFO,A,37.45,-122.1
+94304,Palo Alto,Primary City Name,Santa Clara,CA,SFO,A,37.37,-122.18
+94305,Palo Alto,Alternate City Name,Santa Clara,CA,SFO,A,37.41,-122.17
+94305,Stanford,Primary City Name,Santa Clara,CA,SFO,A,37.41,-122.17
+94306,Palo Alto,Primary City Name,Santa Clara,CA,SFO,A,37.41,-122.13
+94309,Palo Alto,Primary City Name,Santa Clara,CA,SFO,A,37.41,-122.16
+94309,Stanford,Alternate City Name,Santa Clara,CA,SFO,A,37.41,-122.16
+94401,San Mateo,Primary City Name,San Mateo,CA,SFO,A,37.57,-122.32
+94402,San Mateo,Primary City Name,San Mateo,CA,SFO,A,37.52,-122.35
+94403,San Mateo,Primary City Name,San Mateo,CA,SFO,A,37.54,-122.3
+94404,Foster City,Alternate City Name,San Mateo,CA,SFO,A,37.55,-122.26
+94404,San Mateo,Primary City Name,San Mateo,CA,SFO,A,37.55,-122.26
+94497,San Mateo,Primary City Name,San Mateo,CA,SFO,A,37.56,-122.32
+94501,Alameda,Primary City Name,Alameda,CA,SFO,B,37.77,-122.27
+94502,Alameda,Primary City Name,Alameda,CA,SFO,B,37.73,-122.24
+94503,American Canyon,Primary City Name,Napa,CA,SFO,E,38.18,-122.25
+94503,Vallejo,Alternate City Name,Napa,CA,SFO,E,38.18,-122.25
+94505,Byron,Alternate City Name,Contra Costa,CA,SFO,F,37.87,-121.6
+94505,Discovery Bay,Primary City Name,Contra Costa,CA,SFO,F,37.87,-121.6
+94506,Blackhawk,Alternate City Name,Contra Costa,CA,SFO,F,37.78,-121.88
+94506,Danville,Primary City Name,Contra Costa,CA,SFO,D,37.78,-121.88
+94507,Alamo,Primary City Name,Contra Costa,CA,SFO,D,37.85,-122.02
+94509,Antioch,Primary City Name,Contra Costa,CA,SFO,E,37.99,-121.81
+94510,Benicia,Primary City Name,Solano,CA,SFO,E,38.11,-122.13
+94511,Bethel Island,Primary City Name,Contra Costa,CA,SFO,F,38.03,-121.64
+94512,Birds Landing,Primary City Name,Solano,CA,SFO,I,38.13,-121.83
+94513,Brentwood,Primary City Name,Contra Costa,CA,SFO,F,37.87,-121.68
+94514,Byron,Primary City Name,Contra Costa,CA,SFO,F,37.85,-121.62
+94514,Discovery Bay,Alternate City Name,Contra Costa,CA,SFO,F,37.85,-121.62
+94515,Calistoga,Primary City Name,Napa,CA,SFO,F,38.62,-122.61
+94516,Canyon,Primary City Name,Contra Costa,CA,SFO,E,37.83,-122.17
+94517,Clayton,Primary City Name,Contra Costa,CA,SFO,E,37.88,-121.84
+94518,Concord,Primary City Name,Contra Costa,CA,SFO,D,37.95,-122.02
+94519,Concord,Primary City Name,Contra Costa,CA,SFO,D,37.99,-122
+94520,Concord,Primary City Name,Contra Costa,CA,SFO,D,38,-122.03
+94521,Concord,Primary City Name,Contra Costa,CA,SFO,D,37.96,-121.96
+94522,Concord,Primary City Name,Contra Costa,CA,SFO,D,38.01,-122.02
+94523,Concord,Alternate City Name,Contra Costa,CA,SFO,D,37.95,-122.07
+94523,Pleasant Hill,Primary City Name,Contra Costa,CA,SFO,D,37.95,-122.07
+94524,Concord,Primary City Name,Contra Costa,CA,SFO,D,37.97,-122.05
+94525,Crockett,Primary City Name,Contra Costa,CA,SFO,D,38.05,-122.23
+94526,Danville,Primary City Name,Contra Costa,CA,SFO,D,37.81,-121.97
+94527,Concord,Primary City Name,Contra Costa,CA,SFO,D,37.97,-122.05
+94528,Diablo,Primary City Name,Contra Costa,CA,SFO,D,37.85,-121.95
+94529,Concord,Primary City Name,Contra Costa,CA,SFO,D,37.87,-122.04
+94530,El Cerrito,Primary City Name,Contra Costa,CA,SFO,B,37.91,-122.3
+94531,Antioch,Primary City Name,Contra Costa,CA,SFO,E,37.96,-121.76
+94533,Fairfield,Primary City Name,Solano,CA,SFO,I,38.28,-122
+94534,Fairfield,Primary City Name,Solano,CA,SFO,I,38.23,-122.12
+94534,Suisun City,Alternate City Name,Solano,CA,SFO,I,38.23,-122.12
+94535,Fairfield,Alternate City Name,Solano,CA,SFO,I,38.28,-121.92
+94535,Travis AFB,Primary City Name,Solano,CA,SFO,I,38.28,-121.92
+94536,Fremont,Primary City Name,Alameda,CA,SFO,C,37.56,-121.98
+94537,Fremont,Primary City Name,Alameda,CA,SFO,C,37.55,-122.01
+94538,Fremont,Primary City Name,Alameda,CA,SFO,C,37.5,-121.96
+94539,Fremont,Primary City Name,Alameda,CA,SFO,C,37.51,-121.89
+94540,Hayward,Primary City Name,Alameda,CA,SFO,B,37.65,-122.09
+94541,Hayward,Primary City Name,Alameda,CA,SFO,B,37.67,-122.08
+94542,Hayward,Primary City Name,Alameda,CA,SFO,B,37.65,-122.04
+94543,Hayward,Primary City Name,Alameda,CA,SFO,B,37.67,-122.08
+94544,Hayward,Primary City Name,Alameda,CA,SFO,B,37.63,-122.04
+94545,Hayward,Primary City Name,Alameda,CA,SFO,B,37.62,-122.11
+94546,Castro Valley,Primary City Name,Alameda,CA,SFO,B,37.7,-122.08
+94546,Hayward,Alternate City Name,Alameda,CA,SFO,B,37.7,-122.08
+94547,Hercules,Primary City Name,Contra Costa,CA,SFO,D,38.01,-122.25
+94547,Rodeo,Alternate City Name,Contra Costa,CA,SFO,D,38.01,-122.25
+94548,Knightsen,Primary City Name,Contra Costa,CA,SFO,F,37.97,-121.65
+94549,Lafayette,Primary City Name,Contra Costa,CA,SFO,D,37.9,-122.11
+94550,Livermore,Primary City Name,Alameda,CA,SFO,D,37.68,-121.75
+94551,Livermore,Primary City Name,Alameda,CA,SFO,D,37.77,-121.75
+94552,Castro Valley,Primary City Name,Alameda,CA,SFO,B,37.69,-122.01
+94552,Hayward,Alternate City Name,Alameda,CA,SFO,B,37.69,-122.01
+94553,Briones,Alternate City Name,Contra Costa,CA,SFO,D,37.98,-122.15
+94553,Martinez,Primary City Name,Contra Costa,CA,SFO,D,37.98,-122.15
+94553,Pacheco,Alternate City Name,Contra Costa,CA,SFO,D,37.98,-122.15
+94555,Fremont,Primary City Name,Alameda,CA,SFO,C,37.55,-122.07
+94556,Moraga,Primary City Name,Contra Costa,CA,SFO,D,37.83,-122.1
+94557,Hayward,Primary City Name,Alameda,CA,SFO,B,37.62,-122.1
+94557,Mount Eden,Alternate City Name,Alameda,CA,SFO,B,37.62,-122.1
+94558,Napa,Primary City Name,Napa,CA,SFO,F,38.55,-122.15
+94558,Spanish Flat,Alternate City Name,Napa,CA,SFO,F,38.55,-122.15
+94559,Napa,Primary City Name,Napa,CA,SFO,F,38.25,-122.31
+94560,Newark,Primary City Name,Alameda,CA,SFO,C,37.51,-122.04
+94561,Oakley,Primary City Name,Contra Costa,CA,SFO,F,37.99,-121.68
+94562,Oakville,Primary City Name,Napa,CA,SFO,F,38.42,-122.4
+94563,Orinda,Primary City Name,Contra Costa,CA,SFO,D,37.89,-122.19
+94564,Pinole,Primary City Name,Contra Costa,CA,SFO,D,37.99,-122.27
+94565,Bay Point,Alternate City Name,Contra Costa,CA,SFO,E,38.01,-121.91
+94565,Pittsburg,Primary City Name,Contra Costa,CA,SFO,E,38.01,-121.91
+94566,Pleasanton,Primary City Name,Alameda,CA,SFO,D,37.65,-121.85
+94568,Dublin,Primary City Name,Alameda,CA,SFO,D,37.71,-121.91
+94568,Pleasanton,Alternate City Name,Alameda,CA,SFO,D,37.71,-121.91
+94569,Port Costa,Primary City Name,Contra Costa,CA,SFO,E,38.03,-122.19
+94570,Moraga,Primary City Name,Contra Costa,CA,SFO,D,38.11,-122.13
+94571,Rio Vista,Primary City Name,Solano,CA,SFO,I,38.18,-121.73
+94572,Rodeo,Primary City Name,Contra Costa,CA,SFO,D,38.03,-122.25
+94573,Rutherford,Primary City Name,Napa,CA,SFO,F,38.46,-122.43
+94574,Saint Helena,Primary City Name,Napa,CA,SFO,F,38.55,-122.39
+94575,Moraga,Primary City Name,Contra Costa,CA,SFO,D,37.84,-122.11
+94576,Deer Park,Primary City Name,Napa,CA,SFO,F,38.55,-122.48
+94577,San Leandro,Primary City Name,Alameda,CA,SFO,B,37.71,-122.16
+94578,San Leandro,Primary City Name,Alameda,CA,SFO,B,37.7,-122.12
+94579,San Leandro,Primary City Name,Alameda,CA,SFO,B,37.68,-122.15
+94580,San Lorenzo,Primary City Name,Alameda,CA,SFO,B,37.68,-122.13
+94581,Napa,Primary City Name,Napa,CA,SFO,F,38.29,-122.28
+94582,San Ramon,Primary City Name,Contra Costa,CA,SFO,D,37.76,-121.93
+94583,San Ramon,Primary City Name,Contra Costa,CA,SFO,D,37.78,-121.99
+94585,Suisun City,Primary City Name,Solano,CA,SFO,I,38.19,-121.93
+94586,Sunol,Primary City Name,Alameda,CA,SFO,D,37.56,-121.84
+94587,Union City,Primary City Name,Alameda,CA,SFO,C,37.6,-122.02
+94588,Pleasanton,Primary City Name,Alameda,CA,SFO,D,37.67,-121.93
+94589,American Canyon,Alternate City Name,Solano,CA,SFO,F,38.13,-122.25
+94589,Vallejo,Primary City Name,Solano,CA,SFO,E,38.13,-122.25
+94590,Vallejo,Primary City Name,Solano,CA,SFO,E,38.09,-122.25
+94591,Vallejo,Primary City Name,Solano,CA,SFO,E,38.11,-122.2
+94592,Vallejo,Primary City Name,Solano,CA,SFO,E,38.11,-122.29
+94595,Lafayette,Alternate City Name,Contra Costa,CA,SFO,D,37.86,-122.07
+94595,Walnut Creek,Primary City Name,Contra Costa,CA,SFO,D,37.86,-122.07
+94596,Walnut Creek,Primary City Name,Contra Costa,CA,SFO,D,37.89,-122.03
+94597,Lafayette,Alternate City Name,Contra Costa,CA,SFO,D,37.91,-122.07
+94597,Walnut Creek,Primary City Name,Contra Costa,CA,SFO,D,37.91,-122.07
+94598,Walnut Creek,Primary City Name,Contra Costa,CA,SFO,D,37.91,-122.01
+94599,Yountville,Primary City Name,Napa,CA,SFO,F,38.41,-122.36
+94601,Oakland,Primary City Name,Alameda,CA,SFO,B,37.77,-122.21
+94602,Oakland,Primary City Name,Alameda,CA,SFO,B,37.8,-122.21
+94602,Piedmont,Alternate City Name,Alameda,CA,SFO,B,37.8,-122.21
+94603,Oakland,Primary City Name,Alameda,CA,SFO,B,37.74,-122.18
+94604,Oakland,Primary City Name,Alameda,CA,SFO,B,37.8,-122.26
+94605,Oakland,Primary City Name,Alameda,CA,SFO,B,37.75,-122.13
+94606,Oakland,Primary City Name,Alameda,CA,SFO,B,37.78,-122.24
+94607,Oakland,Primary City Name,Alameda,CA,SFO,B,37.81,-122.3
+94608,Emeryville,Primary City Name,Alameda,CA,SFO,B,37.83,-122.29
+94608,Oakland,Alternate City Name,Alameda,CA,SFO,B,37.83,-122.29
+94609,Oakland,Primary City Name,Alameda,CA,SFO,B,37.83,-122.26
+94610,Oakland,Primary City Name,Alameda,CA,SFO,B,37.81,-122.24
+94610,Piedmont,Alternate City Name,Alameda,CA,SFO,B,37.81,-122.24
+94611,Oakland,Primary City Name,Alameda,CA,SFO,B,37.83,-122.22
+94611,Piedmont,Alternate City Name,Alameda,CA,SFO,B,37.83,-122.22
+94612,Oakland,Primary City Name,Alameda,CA,SFO,B,37.81,-122.27
+94613,Oakland,Primary City Name,Alameda,CA,SFO,B,37.78,-122.18
+94614,Oakland,Primary City Name,Alameda,CA,SFO,B,37.72,-122.2
+94615,Oakland,Primary City Name,Alameda,CA,SFO,B,37.8,-122.29
+94617,Oakland,Primary City Name,Alameda,CA,SFO,B,37.75,-122.14
+94618,Oakland,Primary City Name,Alameda,CA,SFO,B,37.84,-122.23
+94618,Piedmont,Alternate City Name,Alameda,CA,SFO,B,37.84,-122.23
+94619,Oakland,Primary City Name,Alameda,CA,SFO,B,37.78,-122.12
+94620,Oakland,Alternate City Name,Alameda,CA,SFO,B,37.77,-122.21
+94620,Piedmont,Primary City Name,Alameda,CA,SFO,B,37.77,-122.21
+94621,Oakland,Primary City Name,Alameda,CA,SFO,B,37.73,-122.2
+94622,Oakland,Primary City Name,Alameda,CA,SFO,B,37.74,-122.19
+94623,Oakland,Primary City Name,Alameda,CA,SFO,B,37.8,-122.29
+94624,Oakland,Primary City Name,Alameda,CA,SFO,B,37.74,-122.17
+94649,Oakland,Primary City Name,Alameda,CA,SFO,B,37.8,-122.26
+94659,Oakland,Primary City Name,Alameda,CA,SFO,B,37.81,-122.26
+94660,Oakland,Primary City Name,Alameda,CA,SFO,B,37.79,-122.27
+94661,Oakland,Primary City Name,Alameda,CA,SFO,B,37.82,-122.2
+94662,Emeryville,Primary City Name,Alameda,CA,SFO,B,37.84,-122.29
+94662,Oakland,Alternate City Name,Alameda,CA,SFO,B,37.84,-122.29
+94666,Oakland,Primary City Name,Alameda,CA,SFO,B,37.8,-122.26
+94701,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.86,-122.27
+94702,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.87,-122.29
+94703,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.86,-122.28
+94704,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.87,-122.26
+94705,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.86,-122.24
+94706,Albany,Primary City Name,Alameda,CA,SFO,B,37.89,-122.3
+94706,Berkeley,Alternate City Name,Alameda,CA,SFO,B,37.89,-122.3
+94706,Kensington,Alternate City Name,Alameda,CA,SFO,B,37.89,-122.3
+94707,Albany,Alternate City Name,Alameda,CA,SFO,B,37.9,-122.28
+94707,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.9,-122.28
+94707,Kensington,Alternate City Name,Alameda,CA,SFO,B,37.9,-122.28
+94708,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.9,-122.26
+94708,Kensington,Alternate City Name,Alameda,CA,SFO,B,37.9,-122.26
+94709,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.88,-122.27
+94710,Albany,Alternate City Name,Alameda,CA,SFO,B,37.87,-122.3
+94710,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.87,-122.3
+94712,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.86,-122.26
+94720,Berkeley,Primary City Name,Alameda,CA,SFO,B,37.87,-122.25
+94801,North Richmond,Alternate City Name,Contra Costa,CA,SFO,D,37.96,-122.38
+94801,Point Richmond,Alternate City Name,Contra Costa,CA,SFO,D,37.96,-122.38
+94801,Richmond,Primary City Name,Contra Costa,CA,SFO,D,37.96,-122.38
+94802,Richmond,Primary City Name,Contra Costa,CA,SFO,D,37.93,-122.35
+94803,El Sobrante,Primary City Name,Contra Costa,CA,SFO,D,37.95,-122.26
+94803,Richmond,Alternate City Name,Contra Costa,CA,SFO,D,37.95,-122.26
+94803,San Pablo,Alternate City Name,Contra Costa,CA,SFO,D,37.95,-122.26
+94804,Richmond,Primary City Name,Contra Costa,CA,SFO,D,37.92,-122.34
+94805,Richmond,Primary City Name,Contra Costa,CA,SFO,D,37.94,-122.31
+94805,San Pablo,Alternate City Name,Contra Costa,CA,SFO,D,37.94,-122.31
+94806,Hilltop Mall,Alternate City Name,Contra Costa,CA,SFO,D,37.98,-122.33
+94806,Richmond,Alternate City Name,Contra Costa,CA,SFO,D,37.98,-122.33
+94806,San Pablo,Primary City Name,Contra Costa,CA,SFO,D,37.98,-122.33
+94807,Richmond,Primary City Name,Contra Costa,CA,SFO,D,37.92,-122.35
+94808,Richmond,Primary City Name,Contra Costa,CA,SFO,D,37.93,-122.34
+94820,El Sobrante,Primary City Name,Contra Costa,CA,SFO,D,37.97,-122.29
+94820,Richmond,Alternate City Name,Contra Costa,CA,SFO,D,37.97,-122.29
+94850,Richmond,Primary City Name,Contra Costa,CA,SFO,D,37.9,-122.32
+94920,Bel Tiburon,Alternate City Name,Marin,CA,SFO,E,37.89,-122.47
+94920,Belvedere,Alternate City Name,Marin,CA,SFO,E,37.89,-122.47
+94920,Belvedere Tiburon,Primary City Name,Marin,CA,SFO,E,37.89,-122.47
+94925,Corte Madera,Primary City Name,Marin,CA,SFO,E,37.92,-122.51
+94976,Corte Madera,Primary City Name,Marin,CA,SFO,E,37.92,-122.52
+94930,Fairfax,Primary City Name,Marin,CA,SFO,E,37.98,-122.6
+94978,Fairfax,Primary City Name,Marin,CA,SFO,E,37.98,-122.58
+94914,Kentfield,Primary City Name,Marin,CA,SFO,E,37.94,-122.53
+94926,Cotati,Alternate City Name,Sonoma,CA,SFO,F,38.32,-122.7
+94926,Rohnert Park,Primary City Name,Sonoma,CA,SFO,F,38.32,-122.7
+94927,Cotati,Alternate City Name,Sonoma,CA,SFO,F,38.34,-122.69
+94927,Rohnert Park,Primary City Name,Sonoma,CA,SFO,F,38.34,-122.69
+94928,Cotati,Alternate City Name,Sonoma,CA,SFO,F,38.34,-122.7
+94928,Rohnert Park,Primary City Name,Sonoma,CA,SFO,F,38.34,-122.7
+94939,Larkspur,Primary City Name,Marin,CA,SFO,E,37.93,-122.53
+94931,Cotati,Primary City Name,Sonoma,CA,SFO,F,38.31,-122.7
+94977,Larkspur,Primary City Name,Marin,CA,SFO,E,37.93,-122.53
+94941,Mill Valley,Primary City Name,Marin,CA,SFO,E,37.89,-122.56
+94942,Mill Valley,Primary City Name,Marin,CA,SFO,E,37.9,-122.52
+94965,Muir Beach,Alternate City Name,Marin,CA,SFO,E,37.84,-122.53
+94945,Novato,Primary City Name,Marin,CA,SFO,E,38.13,-122.56
+94947,Novato,Primary City Name,Marin,CA,SFO,E,38.1,-122.63
+94948,Novato,Primary City Name,Marin,CA,SFO,E,38.13,-122.56
+94949,Novato,Primary City Name,Marin,CA,SFO,E,38.06,-122.54
+94998,Novato,Primary City Name,Marin,CA,SFO,E,38.1,-122.57
+94951,Penngrove,Primary City Name,Sonoma,CA,SFO,E,38.31,-122.64
+94952,Petaluma,Primary City Name,Sonoma,CA,SFO,E,38.21,-122.76
+94953,Petaluma,Primary City Name,Sonoma,CA,SFO,E,38.26,-122.63
+94954,Petaluma,Primary City Name,Sonoma,CA,SFO,E,38.23,-122.56
+94955,Petaluma,Primary City Name,Sonoma,CA,SFO,E,38.22,-122.55
+94957,Ross,Primary City Name,Marin,CA,SFO,E,37.96,-122.56
+94901,San Anselmo,Alternate City Name,Marin,CA,SFO,E,37.97,-122.5
+94960,San Anselmo,Primary City Name,Marin,CA,SFO,E,37.99,-122.58
+94979,San Anselmo,Primary City Name,Marin,CA,SFO,E,37.97,-122.56
+94964,San Quentin,Primary City Name,Marin,CA,SFO,E,37.94,-122.49
+94974,San Quentin,Primary City Name,Marin,CA,SFO,E,37.95,-122.54
+94901,San Rafael,Primary City Name,Marin,CA,SFO,E,37.97,-122.5
+94903,San Rafael,Primary City Name,Marin,CA,SFO,E,38.02,-122.54
+94912,San Rafael,Primary City Name,Marin,CA,SFO,E,37.97,-122.5
+94913,San Rafael,Primary City Name,Marin,CA,SFO,E,38.02,-122.54
+94915,San Rafael,Primary City Name,Marin,CA,SFO,E,37.95,-122.5
+94965,Sausalito,Primary City Name,Marin,CA,SFO,E,37.84,-122.53
+94975,Petaluma,Primary City Name,Sonoma,CA,SFO,E,38.32,-122.64
+94966,Sausalito,Primary City Name,Marin,CA,SFO,E,37.86,-122.49
+94999,Petaluma,Primary City Name,Sonoma,CA,SFO,E,38.32,-122.64
+95001,Aptos,Primary City Name,Santa Cruz,CA,SFO,P,36.97,-121.89
+95002,Alviso,Primary City Name,Santa Clara,CA,SFO,C,37.44,-121.99
+95002,San Jose,Alternate City Name,Santa Clara,CA,SFO,C,37.44,-121.99
+95003,Aptos,Primary City Name,Santa Cruz,CA,SFO,P,37,-121.87
+95005,Ben Lomond,Primary City Name,Santa Cruz,CA,SFO,P,37.1,-122.08
+95006,Boulder Creek,Primary City Name,Santa Cruz,CA,SFO,P,37.16,-122.15
+95007,Brookdale,Primary City Name,Santa Cruz,CA,SFO,P,37.1,-122.11
+95008,Campbell,Primary City Name,Santa Clara,CA,SFO,C,37.28,-121.95
+95009,Campbell,Primary City Name,Santa Clara,CA,SFO,C,37.28,-121.94
+95010,Capitola,Primary City Name,Santa Cruz,CA,SFO,P,36.97,-121.95
+95011,Campbell,Primary City Name,Santa Clara,CA,SFO,C,37.29,-121.95
+95013,Coyote,Primary City Name,Santa Clara,CA,SFO,E,37.22,-121.74
+95014,Cupertino,Primary City Name,Santa Clara,CA,SFO,C,37.3,-122.09
+95014,Monte Vista,Alternate City Name,Santa Clara,CA,SFO,C,37.3,-122.09
+95014,Permanente,Alternate City Name,Santa Clara,CA,SFO,C,37.3,-122.09
+95015,Cupertino,Primary City Name,Santa Clara,CA,SFO,C,37.32,-122.05
+95017,Davenport,Primary City Name,Santa Cruz,CA,SFO,P,37.09,-122.24
+95018,Felton,Primary City Name,Santa Cruz,CA,SFO,P,37.08,-122.05
+95019,Freedom,Primary City Name,Santa Cruz,CA,SFO,P,36.94,-121.78
+95020,Gilroy,Primary City Name,Santa Clara,CA,SFO,E,37.06,-121.55
+95021,Gilroy,Primary City Name,Santa Clara,CA,SFO,E,37.01,-121.55
+95026,Holy City,Primary City Name,Santa Clara,CA,SFO,P,37.15,-121.98
+95026,Redwood Estates,Alternate City Name,Santa Clara,CA,SFO,P,37.15,-121.98
+95030,Los Gatos,Primary City Name,Santa Clara,CA,SFO,C,37.22,-121.99
+95030,Monte Sereno,Alternate City Name,Santa Clara,CA,SFO,C,37.22,-121.99
+95031,Los Gatos,Primary City Name,Santa Clara,CA,SFO,C,37.12,-121.93
+95032,Los Gatos,Primary City Name,Santa Clara,CA,SFO,C,37.23,-121.95
+95033,Los Gatos,Primary City Name,Santa Cruz,CA,SFO,P,37.13,-121.94
+95035,Milpitas,Primary City Name,Santa Clara,CA,SFO,C,37.44,-121.87
+95036,Milpitas,Primary City Name,Santa Clara,CA,SFO,C,37.24,-121.97
+95037,Morgan Hill,Primary City Name,Santa Clara,CA,SFO,E,37.17,-121.65
+95038,Morgan Hill,Primary City Name,Santa Clara,CA,SFO,E,37.08,-121.61
+95041,Mount Hermon,Primary City Name,Santa Cruz,CA,SFO,P,37.05,-122.06
+95042,New Almaden,Primary City Name,Santa Clara,CA,SFO,E,37.17,-121.82
+95044,Redwood Estates,Primary City Name,Santa Clara,CA,SFO,P,37.15,-121.98
+95046,San Martin,Primary City Name,Santa Clara,CA,SFO,E,37.1,-121.6
+95050,Santa Clara,Primary City Name,Santa Clara,CA,SFO,C,37.34,-121.95
+95051,Santa Clara,Primary City Name,Santa Clara,CA,SFO,C,37.35,-121.98
+95052,Santa Clara,Primary City Name,Santa Clara,CA,SFO,C,37.35,-121.95
+95053,Santa Clara,Primary City Name,Santa Clara,CA,SFO,C,37.35,-121.94
+95054,Santa Clara,Primary City Name,Santa Clara,CA,SFO,C,37.39,-121.96
+95055,Santa Clara,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.98
+95056,Santa Clara,Primary City Name,Santa Clara,CA,SFO,C,37.4,-121.96
+95060,Bonny Doon,Alternate City Name,Santa Cruz,CA,SFO,P,37.04,-122.1
+95060,Santa Cruz,Primary City Name,Santa Cruz,CA,SFO,P,37.04,-122.1
+95060,Scotts Valley,Alternate City Name,Santa Cruz,CA,SFO,P,37.04,-122.1
+95061,Santa Cruz,Primary City Name,Santa Cruz,CA,SFO,P,36.97,-122.02
+95062,Santa Cruz,Primary City Name,Santa Cruz,CA,SFO,P,36.97,-121.98
+95063,Santa Cruz,Primary City Name,Santa Cruz,CA,SFO,P,36.97,-122
+95064,Santa Cruz,Primary City Name,Santa Cruz,CA,SFO,P,36.99,-122.06
+95065,Santa Cruz,Primary City Name,Santa Cruz,CA,SFO,P,37.03,-121.98
+95066,Santa Cruz,Alternate City Name,Santa Cruz,CA,SFO,P,37.06,-122.01
+95066,Scotts Valley,Primary City Name,Santa Cruz,CA,SFO,P,37.06,-122.01
+95067,Santa Cruz,Alternate City Name,Santa Cruz,CA,SFO,P,36.97,-122.03
+95067,Scotts Valley,Primary City Name,Santa Cruz,CA,SFO,P,36.97,-122.03
+95070,Saratoga,Primary City Name,Santa Clara,CA,SFO,C,37.25,-122.06
+95071,Saratoga,Primary City Name,Santa Clara,CA,SFO,C,37.25,-122.03
+95073,Soquel,Primary City Name,Santa Cruz,CA,SFO,P,37.02,-121.94
+95076,Corralitos,Alternate City Name,Santa Cruz,CA,SFO,P,36.95,-121.72
+95076,La Selva Bch,Alternate City Name,Santa Cruz,CA,SFO,P,36.95,-121.72
+95076,La Selva Beach,Alternate City Name,Santa Cruz,CA,SFO,P,36.95,-121.72
+95076,Mt Madonna,Alternate City Name,Santa Cruz,CA,SFO,P,36.95,-121.72
+95076,Pajaro,Alternate City Name,Santa Cruz,CA,SFO,P,36.95,-121.72
+95076,Royal Oaks,Alternate City Name,Santa Cruz,CA,SFO,P,36.95,-121.72
+95076,Watsonville,Primary City Name,Santa Cruz,CA,SFO,P,36.95,-121.72
+95077,Watsonville,Primary City Name,Santa Cruz,CA,SFO,P,36.91,-121.75
+95101,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.38,-121.89
+95103,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.89
+95106,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.89
+95108,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-122.08
+95109,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.89
+95110,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.34,-121.9
+95111,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.28,-121.83
+95112,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.34,-121.88
+95113,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.89
+95115,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.3,-121.89
+95116,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.35,-121.85
+95117,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.31,-121.96
+95118,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.25,-121.88
+95119,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.22,-121.78
+95120,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.19,-121.83
+95121,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.3,-121.8
+95122,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.83
+95123,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.23,-121.82
+95124,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.25,-121.92
+95125,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.29,-121.88
+95126,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.32,-121.91
+95127,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.37,-121.8
+95128,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.31,-121.93
+95129,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.3,-122
+95130,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.28,-121.98
+95131,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.38,-121.9
+95132,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.42,-121.77
+95133,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.37,-121.86
+95134,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.42,-121.94
+95135,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.29,-121.69
+95136,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.27,-121.84
+95138,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.24,-121.73
+95139,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.22,-121.76
+95141,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.17,-121.75
+95148,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.77
+95150,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.29,-121.91
+95151,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.29,-121.78
+95152,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.41,-121.82
+95153,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.24,-121.84
+95154,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.26,-121.91
+95155,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.31,-121.9
+95156,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.35,-121.84
+95157,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.3,-121.97
+95158,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.26,-121.87
+95159,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.31,-121.93
+95160,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.21,-121.86
+95161,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.38,-121.89
+95164,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.39,-121.92
+95170,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.31,-122
+95172,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.88
+95173,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.89
+95190,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.37,-121.9
+95191,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.32,-121.91
+95192,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.34,-121.89
+95193,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.24,-121.83
+95194,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.34,-121.88
+95196,San Jose,Primary City Name,Santa Clara,CA,SFO,C,37.33,-121.89
+95201,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.9,-121.22
+95202,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.96,-121.29
+95203,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.95,-121.32
+95204,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.97,-121.32
+95205,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.96,-121.26
+95206,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.9,-121.4
+95207,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38,-121.32
+95208,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.95,-121.43
+95209,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38.04,-121.35
+95210,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38.02,-121.3
+95211,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.98,-121.31
+95212,Morada,Alternate City Name,San Joaquin,CA,SFO,I,38.05,-121.23
+95212,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38.05,-121.23
+95213,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.95,-121.43
+95214,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.95,-121.29
+95215,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.95,-121.12
+95219,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38.01,-121.38
+95220,Acampo,Primary City Name,San Joaquin,CA,SFO,I,38.19,-121.25
+95231,French Camp,Primary City Name,San Joaquin,CA,SFO,I,37.87,-121.29
+95240,Lodi,Primary City Name,San Joaquin,CA,SFO,I,38.11,-121.16
+95241,Lodi,Primary City Name,San Joaquin,CA,SFO,I,38.15,-121.3
+95242,Lodi,Primary City Name,San Joaquin,CA,SFO,I,38.13,-121.39
+95253,Victor,Primary City Name,San Joaquin,CA,SFO,I,38.14,-121.2
+95258,Woodbridge,Primary City Name,San Joaquin,CA,SFO,I,38.17,-121.31
+95267,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38,-121.31
+95269,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38.01,-121.32
+95296,Lyoth,Alternate City Name,San Joaquin,CA,SFO,I,38.02,-121.3
+95296,Stockton,Primary City Name,San Joaquin,CA,SFO,I,38.02,-121.3
+95297,Stockton,Primary City Name,San Joaquin,CA,SFO,I,37.96,-121.3
+95304,Banta,Alternate City Name,San Joaquin,CA,SFO,I,37.69,-121.39
+95304,Tracy,Primary City Name,San Joaquin,CA,SFO,I,37.69,-121.39
+95307,Ceres,Primary City Name,Stanislaus,CA,SFO,I,37.55,-120.96
+95313,Crows Landing,Primary City Name,Stanislaus,CA,SFO,I,37.39,-121.05
+95316,Denair,Primary City Name,Stanislaus,CA,SFO,I,37.54,-120.68
+95319,Empire,Primary City Name,Stanislaus,CA,SFO,I,37.64,-120.9
+95320,Escalon,Primary City Name,San Joaquin,CA,SFO,I,37.83,-121.03
+95326,Hughson,Primary City Name,Stanislaus,CA,SFO,I,37.59,-120.85
+95328,Keyes,Primary City Name,Stanislaus,CA,SFO,I,37.55,-120.91
+95330,Lathrop,Primary City Name,San Joaquin,CA,SFO,I,37.82,-121.29
+95336,Manteca,Primary City Name,San Joaquin,CA,SFO,I,37.83,-121.18
+95337,Manteca,Primary City Name,San Joaquin,CA,SFO,I,37.73,-121.24
+95350,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.67,-121.01
+95351,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.63,-121.01
+95352,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.66,-120.99
+95353,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.66,-120.94
+95354,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.63,-120.97
+95355,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.67,-120.95
+95356,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.72,-121.03
+95357,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.67,-120.89
+95358,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.65,-121.13
+95366,Ripon,Primary City Name,San Joaquin,CA,SFO,I,37.75,-121.12
+95367,Riverbank,Primary City Name,Stanislaus,CA,SFO,I,37.73,-120.95
+95368,Salida,Primary City Name,Stanislaus,CA,SFO,I,37.71,-121.09
+95376,Tracy,Primary City Name,San Joaquin,CA,SFO,I,37.73,-121.42
+95377,Tracy,Primary City Name,San Joaquin,CA,SFO,I,37.62,-121.45
+95378,Tracy,Primary City Name,San Joaquin,CA,SFO,I,37.8,-121.55
+95380,Turlock,Primary City Name,Stanislaus,CA,SFO,I,37.47,-120.85
+95381,Turlock,Primary City Name,Stanislaus,CA,SFO,I,37.49,-120.85
+95382,Turlock,Primary City Name,Stanislaus,CA,SFO,I,37.53,-120.84
+95391,Mountain House,Alternate City Name,San Joaquin,CA,SFO,I,37.76,-121.63
+95391,Tracy,Primary City Name,San Joaquin,CA,SFO,I,37.76,-121.63
+95397,Modesto,Primary City Name,Stanislaus,CA,SFO,I,37.65,-120.99
+95401,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.44,-122.78
+95402,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.47,-122.6
+95403,Larkfield,Alternate City Name,Sonoma,CA,SFO,F,38.5,-122.76
+95403,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.5,-122.76
+95404,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.53,-122.69
+95405,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.43,-122.67
+95406,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.45,-122.72
+95407,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.39,-122.75
+95409,Kenwood,Alternate City Name,Sonoma,CA,SFO,F,38.45,-122.59
+95409,Santa Rosa,Primary City Name,Sonoma,CA,SFO,F,38.45,-122.59
+95416,Boyes Hot Springs,Primary City Name,Sonoma,CA,SFO,F,38.31,-122.48
+95431,Eldridge,Primary City Name,Sonoma,CA,SFO,F,38.35,-122.52
+95433,El Verano,Primary City Name,Sonoma,CA,SFO,F,38.29,-122.48
+95436,Forestville,Primary City Name,Sonoma,CA,SFO,F,38.48,-122.9
+95439,Fulton,Primary City Name,Sonoma,CA,SFO,F,38.49,-122.77
+95442,Glen Ellen,Primary City Name,Sonoma,CA,SFO,F,38.38,-122.52
+95444,Graton,Primary City Name,Sonoma,CA,SFO,F,38.43,-122.87
+95446,Guerneville,Primary City Name,Sonoma,CA,SFO,F,38.52,-123.01
+95448,Healdsburg,Primary City Name,Sonoma,CA,SFO,F,38.63,-122.89
+95452,Kenwood,Primary City Name,Sonoma,CA,SFO,F,38.42,-122.54
+95471,Rio Nido,Primary City Name,Sonoma,CA,SFO,F,38.52,-122.97
+95472,Freestone,Alternate City Name,Sonoma,CA,SFO,F,38.4,-122.86
+95472,Sebastopol,Primary City Name,Sonoma,CA,SFO,F,38.4,-122.86
+95473,Sebastopol,Primary City Name,Sonoma,CA,SFO,F,38.4,-122.82
+95476,Sonoma,Primary City Name,Sonoma,CA,SFO,F,38.24,-122.46
+95492,Windsor,Primary City Name,Sonoma,CA,SFO,F,38.53,-122.81
+95605,Broderick,Alternate City Name,Yolo,CA,SFO,I,38.59,-121.54
+95605,Bryte,Alternate City Name,Yolo,CA,SFO,I,38.59,-121.54
+95605,West Sacramento,Primary City Name,Yolo,CA,SFO,I,38.59,-121.54
+95606,Brooks,Primary City Name,Yolo,CA,SFO,I,38.8,-122.18
+95607,Capay,Primary City Name,Yolo,CA,SFO,I,38.69,-122.12
+95608,Carmichael,Primary City Name,Sacramento,CA,SFO,I,38.62,-121.32
+95609,Carmichael,Primary City Name,Sacramento,CA,SFO,I,38.62,-121.32
+95610,Citrus Heights,Primary City Name,Sacramento,CA,SFO,I,38.69,-121.27
+95611,Citrus Heights,Primary City Name,Sacramento,CA,SFO,I,38.7,-121.28
+95612,Clarksburg,Primary City Name,Yolo,CA,SFO,I,38.37,-121.58
+95615,Courtland,Primary City Name,Sacramento,CA,SFO,I,38.31,-121.54
+95616,Davis,Primary City Name,Yolo,CA,SFO,I,38.55,-121.8
+95617,Davis,Primary City Name,Yolo,CA,SFO,I,38.54,-121.72
+95618,Davis,Primary City Name,Yolo,CA,SFO,I,38.53,-121.66
+95618,El Macero,Alternate City Name,Yolo,CA,SFO,I,38.53,-121.66
+95620,Dixon,Primary City Name,Solano,CA,SFO,I,38.39,-121.81
+95620,Liberty Farms,Alternate City Name,Solano,CA,SFO,I,38.39,-121.81
+95621,Citrus Heights,Primary City Name,Sacramento,CA,SFO,I,38.69,-121.31
+95624,Elk Grove,Primary City Name,Sacramento,CA,SFO,I,38.44,-121.3
+95625,Elmira,Primary City Name,Solano,CA,SFO,I,38.36,-121.91
+95626,Elverta,Primary City Name,Sacramento,CA,SFO,I,38.73,-121.46
+95627,Esparto,Primary City Name,Yolo,CA,SFO,I,38.73,-122.03
+95628,Fair Oaks,Primary City Name,Sacramento,CA,SFO,I,38.65,-121.25
+95630,Folsom,Primary City Name,Sacramento,CA,SFO,I,38.67,-121.14
+95632,Galt,Primary City Name,Sacramento,CA,SFO,I,38.27,-121.22
+95639,Hood,Primary City Name,Sacramento,CA,SFO,I,38.39,-121.5
+95652,Mcclellan,Primary City Name,Sacramento,CA,SFO,I,38.66,-121.4
+95653,Madison,Primary City Name,Yolo,CA,SFO,I,38.7,-121.98
+95655,Mather,Primary City Name,Sacramento,CA,SFO,I,38.54,-121.28
+95655,Rancho Cordova,Alternate City Name,Sacramento,CA,SFO,I,38.54,-121.28
+95660,North Highlands,Primary City Name,Sacramento,CA,SFO,I,38.66,-121.37
+95662,Orangevale,Primary City Name,Sacramento,CA,SFO,I,38.68,-121.22
+95670,Gold River,Alternate City Name,Sacramento,CA,SFO,I,38.6,-121.28
+95670,Rancho Cordova,Primary City Name,Sacramento,CA,SFO,I,38.6,-121.28
+95673,Rio Linda,Primary City Name,Sacramento,CA,SFO,I,38.68,-121.45
+95680,Ryde,Primary City Name,Sacramento,CA,SFO,I,38.24,-121.59
+95686,Thornton,Primary City Name,San Joaquin,CA,SFO,I,38.17,-121.52
+95687,Vacaville,Primary City Name,Solano,CA,SFO,I,38.35,-121.93
+95688,Vacaville,Primary City Name,Solano,CA,SFO,I,38.41,-122.01
+95690,Walnut Grove,Primary City Name,Sacramento,CA,SFO,I,38.23,-121.58
+95691,West Sacramento,Primary City Name,Yolo,CA,SFO,I,38.66,-121.62
+95694,Winters,Primary City Name,Yolo,CA,SFO,I,38.56,-121.99
+95695,Woodland,Primary City Name,Yolo,CA,SFO,I,38.71,-121.85
+95696,Vacaville,Primary City Name,Solano,CA,SFO,I,38.31,-121.92
+95697,Yolo,Primary City Name,Yolo,CA,SFO,I,38.73,-121.81
+95698,Zamora,Primary City Name,Yolo,CA,SFO,I,38.8,-121.9
+95741,Rancho Cordova,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.3
+95742,Rancho Cordova,Primary City Name,Sacramento,CA,SFO,I,38.57,-121.17
+95757,Elk Grove,Primary City Name,Sacramento,CA,SFO,I,38.35,-121.42
+95758,Elk Grove,Primary City Name,Sacramento,CA,SFO,I,38.43,-121.44
+95759,Elk Grove,Primary City Name,Sacramento,CA,SFO,I,38.4,-121.37
+95763,Folsom,Primary City Name,Sacramento,CA,SFO,I,38.67,-121.17
+95776,Woodland,Primary City Name,Yolo,CA,SFO,I,38.69,-121.68
+95798,West Sacramento,Primary City Name,Yolo,CA,SFO,I,38.57,-121.56
+95799,West Sacramento,Primary City Name,Yolo,CA,SFO,I,38.53,-121.55
+95811,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.59,-121.49
+95812,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+95813,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.5,-121.41
+95814,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+95815,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.6,-121.46
+95816,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.57,-121.46
+95817,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.45
+95818,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+95819,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.56,-121.43
+95820,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.53,-121.44
+95821,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.62,-121.38
+95822,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.51,-121.49
+95823,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.47,-121.44
+95824,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.52,-121.44
+95825,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.59,-121.41
+95826,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.54,-121.38
+95827,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.32
+95828,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.48,-121.4
+95829,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.48,-121.34
+95830,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.49,-121.27
+95831,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.49,-121.53
+95832,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.43,-121.51
+95833,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.61,-121.49
+95834,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.64,-121.54
+95835,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.67,-121.53
+95836,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.71,-121.54
+95837,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.69,-121.6
+95838,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.64,-121.44
+95840,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+95841,Carmichael,Alternate City Name,Sacramento,CA,SFO,I,38.66,-121.35
+95841,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.66,-121.35
+95842,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.68,-121.34
+95843,Antelope,Primary City Name,Sacramento,CA,SFO,I,38.71,-121.36
+95843,Sacramento,Alternate City Name,Sacramento,CA,SFO,I,38.71,-121.36
+95851,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.6,-121.44
+95852,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.6,-121.44
+95853,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.6,-121.44
+95860,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.61,-121.38
+95864,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.37
+95865,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.59,-121.4
+95866,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.59,-121.4
+95867,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.58,-121.49
+95894,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.55,-121.49
+95899,Sacramento,Primary City Name,Sacramento,CA,SFO,I,38.57,-121.52
+98001,Auburn,Primary City Name,King County,WA,SEA,A,,

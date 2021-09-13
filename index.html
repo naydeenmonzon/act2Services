@@ -110,7 +110,7 @@
             <p class="text-white">Use our calculator below to get your estimated transportation cost.</p>
 <!-- Dims -->  
             <div class="border p-5 m-5 shadow bg-light rounded-2" id="cal-form">
-                <form class="row g-4 justify-content-evenly  fs-6" id="calform">
+                <form class="row g-4 justify-content-evenly  needs-validation" id="calform">
                     <div class="col-md-6">
                         <fieldset class="row justify-content-md-end m-4" id="pcs">
                             <legend class="fs-5">Enter dimension <strong>per</strong> piece count and <strong>total</strong> weight</legend>
@@ -118,43 +118,43 @@
                                 <div  class="input-group row p-0 m-0 g-0" name="lineITEM">
                                     <div class="col-9 d-flex">
                                         <span class="input-group-text rounded-0">pc</span>
-                                        <input name="pc" value="" type="number" aria-label="pc" class="form-control rounded-0">
+                                        <input name="pc" type="number" aria-label="pc" class="form-control rounded-0" id="pc1" required>
                                         <span class="input-group-text rounded-0">dims</span>
-                                        <input name="ln" value="" type="number" aria-label="ln" class="form-control rounded-0">
-                                        <input name="wd" value="" type="number" aria-label="wd" class="form-control rounded-0">
-                                        <input name="ht" value="" type="number" aria-label="ht" class="form-control rounded-0">
+                                        <input name="ln"type="number" aria-label="ln" class="form-control rounded-0" id="ln1" required>
+                                        <input name="wd" type="number" aria-label="wd" class="form-control rounded-0" id="wd1" required>
+                                        <input name="ht" type="number" aria-label="ht" class="form-control rounded-0" id="ht1" required>
                                     </div>
                                     <div class="col-3 d-flex">
                                         <span  class="input-group-text rounded-0">wt</span>
-                                        <input name="wt" value="" type="number" aria-label="wt" class="form-control rounded-0">
+                                        <input name="wt"  type="number" aria-label="wt" class="form-control rounded-0" required>
                                     </div>
                                 </div>
                                 <div class="input-group row p-0 m-0 g-0" name="lineITEM">
                                     <div class="col-9 d-flex">
                                         <span class="input-group-text rounded-0">pc</span>
-                                        <input name="pc" value="" type="number" aria-label="pc" class="form-control rounded-0">
+                                        <input name="pc" type="number" aria-label="pc" class="form-control rounded-0">
                                         <span class="input-group-text rounded-0">dims</span>
-                                        <input name="ln" value="" type="number" aria-label="ln" class="form-control rounded-0">
-                                        <input name="wd" value="" type="number" aria-label="wd" class="form-control rounded-0">
-                                        <input name="ht" value="" type="number" aria-label="ht" class="form-control rounded-0">
+                                        <input name="ln" type="number" aria-label="ln" class="form-control rounded-0">
+                                        <input name="wd" type="number" aria-label="wd" class="form-control rounded-0">
+                                        <input name="ht" type="number" aria-label="ht" class="form-control rounded-0">
                                     </div>
                                     <div class="col-3 d-flex">
                                         <span  class="input-group-text rounded-0">wt</span>
-                                        <input name="wt" value="" type="number" aria-label="wt" class="form-control rounded-0">
+                                        <input name="wt" type="number" aria-label="wt" class="form-control rounded-0">
                                     </div>
                                 </div>
                                 <div class="input-group row p-0 m-0 g-0" id="pc-line" name="lineITEM">
                                     <div class="col-9 d-flex">
                                         <span class="input-group-text rounded-0">pc</span>
-                                        <input name="pc" value="" type="number" aria-label="pc" class="form-control rounded-0">
+                                        <input name="pc" type="number" aria-label="pc" class="form-control rounded-0">
                                         <span class="input-group-text rounded-0">dims</span>
-                                        <input name="ln" value="" type="number" aria-label="ln" class="form-control rounded-0">
-                                        <input name="wd" value="" type="number" aria-label="wd" class="form-control rounded-0">
-                                        <input name="ht" value="" type="number" aria-label="ht" class="form-control rounded-0">
+                                        <input name="ln" type="number" aria-label="ln" class="form-control rounded-0">
+                                        <input name="wd" type="number" aria-label="wd" class="form-control rounded-0">
+                                        <input name="ht" type="number" aria-label="ht" class="form-control rounded-0">
                                     </div>
                                     <div class="col-3 d-flex">
                                         <span  class="input-group-text rounded-0">wt</span>
-                                        <input name="wt" value="" type="number" aria-label="wt" class="form-control rounded-0">
+                                        <input name="wt" type="number" aria-label="wt" class="form-control rounded-0">
                                     </div>
                                 </div>
                             </fieldset>
@@ -181,18 +181,18 @@
                     </div>
     <!-- UOM -->  
                     <div class="col-md-6">
-                        <fieldset class="row justify-content-start m-4" id="UOM">
+                        <fieldset class="row justify-content-start m-4" name="UOM">
                             <legend class="fs-5">Choose of Unit of Measurement</legend>
                             <fieldset class="col-md-5 align-middle" id="weight">
                                 <legend class="unit weight fs-6">Weight</legend>
                                 <div class=" form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" value="0.45" id="flexRadioDefault1">
+                                    <input class="form-check-input" type="radio" name="weight" value="0.453592" id="weight1">
                                     <label class="form-check-label" for="defaultUnchecked">
                                     pounds
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" value="1" id="flexRadioDefault2" checked>
+                                    <input class="form-check-input" type="radio" name="weight" value="1" id="weight2" checked>
                                     <label class="form-check-label" for="defaultChecked">
                                     kilo
                                     </label>
@@ -224,6 +224,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <input id="volwt" class="form-control g-0 pe-2 py-0 m-0 border-0 text-md-end bg-transparent fw-bold" readonly>
+                                            
                                         </div>
                                         <div class="col-md-auto g-0">
                                             <h6 class="fw-bold kg">kg</h6>
@@ -259,6 +260,7 @@
                             </div>
                             <div class="col-md-3">
                                 <input id="chargewt" class="form-control g-0 pe-2 py-0 m-0 border-0 text-md-end bg-transparent fw-bold" readonly>
+                                <input hidden id="chargewtNUM">
                             </div>
                             <div class="col-sm-1">
                                 <h6 class="fw-bold kg">kg</h6>
@@ -274,29 +276,29 @@
                         <hr class="divider" style="width: 100%;">
                     </div>
     <!-- From -->                    
-                    <fieldset class="col-md-6 row align-content-start my-4">
+                    <fieldset class="col-md-6 row align-content-start my-4" id="from">
                         <legend class="fs-5 ">From</legend>
                         <div id="from-instructions" class="form-text col-md-12 mt-3">
                             Choose below to describe where the freight is originating.
                         </div>
                         <div class="form-check mb-3 col-md-4">
-                            <input class="form-check-input" type="radio" id="actwarehouse" value="option1" name="originradio" onclick="ACTdisableORG()" >
+                            <input class="form-check-input" type="radio" id="actwarehouse" value="option1" name="originradio"  onchange="ACTdisableORG()" >
                             <label class="form-check-label" for="actwarehouse">ACT Warehouse</label>
                         </div>
                         <div class="form-check mb-3 col-md-4">
-                            <input class="form-check-input" type="radio" id="org-airport" value="option2" name="originradio" onclick="PORTdisableORG()">
+                            <input class="form-check-input" type="radio" id="org-airport" value="option2" name="originradio" onchange="PORTdisableORG()">
                             <label class="form-check-label" for="org-airport">Airport/Terminal</label>
                         </div>
                         <div class="form-check mb-3 col-md-4">
-                            <input class="form-check-input" type="radio" id="org-door" value="option3" name="originradio" onclick="ZIPdisabledORG()" checked="true">
+                            <input class="form-check-input" type="radio" id="org-door" value="option3" name="originradio" oninput="ZIPdisabledORG()" checked="true">
                             <label class="form-check-label" for="org-door">Door Pickup</label>
                         </div>
 
                         <div class="col-md-12 row justify-content-center">
-                            <fieldset class="col-md-11 row justify-content-between" id="org-terminal">
+                            <fieldset class="col-md-11 row justify-content-between"  id="org-terminal">
                                 <div class="col-md-5">
                                     <label for="input-terminal" class="unit terminal form-label">Terminal Code</label>
-                                    <select id="input-terminal-ORG" class="form-select">
+                                    <select id="input-terminal-ORG" class="form-select" disabled>
                                       <option selected>SFO</option>
                                       <option>LAX</option>
                                       <option>PDX</option>
@@ -309,30 +311,57 @@
                                 </div>
                             </fieldset>
                         </div>
+                        <div class="row mt-3">
+                            <div class="col-8">
+                                <div class="row">
+                                    <small class="fw-bold col-auto py-0 my-0">City Name:</small>
+                                    <small id="orgname" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="row">
+                                    <small class="fw-bold col-auto py-0 my-0">State:</small>
+                                    <small id="orgSTATE" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="row">
+                                    <small class="col-auto py-0 my-0">Alternative Name:</small>
+                                    <small id="OrgALTname" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="row">
+                                    <small class="fw-bold col-auto py-0 my-0">Zone:</small>
+                                    <small id="orgZONE" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2"><small id="zipORGmsg" hidden class="text-danger text-center fw-bold"></small></div>
                     </fieldset>
     <!-- To -->
-                    <fieldset class="col-md-6 row justify-content-center my-4">
+                    <fieldset class="col-md-6 row align-content-start my-4">
                         <legend class="fs-5 ">To</legend>
                         <div id="from-instructions" class="form-text col-md-12 mt-3">
                             Choose below to describe where the freight needs to deliver.
                         </div>
                         <div class="form-check mb-3 col-md-4">
-                            <input class="form-check-input" type="radio" id="actwarehouse" value="option1" name="destradio" onclick="ACTdisableDES()" >
+                            <input class="form-check-input" type="radio" id="actwarehouse" value="option1" name="destradio" onchange="ACTdisableDES()" >
                             <label class="form-check-label" for="actwarehouse">ACT Warehouse</label>
                         </div>
                         <div class="form-check mb-3 col-md-4">
-                            <input class="form-check-input" type="radio" id="des-airport" value="option2" name="destradio" onclick="PORTdisableDES()">
+                            <input class="form-check-input" type="radio" id="des-airport" value="option2" name="destradio" onchange="PORTdisableDES()">
                             <label class="form-check-label" for="des-airport">Airport/Terminal</label>
                         </div>
                         <div class="form-check mb-3 col-md-4">
-                            <input class="form-check-input" type="radio" id="des-door" value="option3" name="destradio" onclick="ZIPdisabledDES()" checked="true">
+                            <input class="form-check-input" type="radio" id="des-door" value="option3" name="destradio" onchange="ZIPdisabledDES()" checked="true">
                             <label class="form-check-label" for="des-door">Door Delivery</label>
                         </div>
                         <div class="col-md-12 row justify-content-center">
                             <fieldset class="col-md-11 row justify-content-between" id="des-terminal">
                                 <div class="col-md-5">
                                     <label for="input-terminal" class="unit terminal form-label">Terminal Code</label>
-                                    <select id="input-terminal-DES" class="form-select">
+                                    <select id="input-terminal-DES" class="form-select" disabled>
                                       <option selected>SFO</option>
                                       <option>LAX</option>
                                       <option>PDX</option>
@@ -345,15 +374,71 @@
                                 </div>
                             </fieldset>
                         </div>
+                        <div class="row mt-3">
+                            <div class="col-8">
+                                <div class="row">
+                                    <small class="fw-bold col-auto py-0 my-0">City Name:</small>
+                                    <small id="delname" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="row">
+                                    <small class="fw-bold col-auto py-0 my-0">State:</small>
+                                    <small id="delSTATE" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="row">
+                                    <small class="col-auto py-0 my-0">Alternative Name:</small>
+                                    <small id="DelALTname" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="row">
+                                    <small class="fw-bold col-auto py-0 my-0">Zone:</small>
+                                    <small id="delZONE" class="col-auto py-0 my-0"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2"><small id="zipDESmsg" hidden class="text-danger text-center fw-bold">Test</small></div>
                     </fieldset>
-                    <div class="col-md-11 my-5">
+                    <div class="col-md-11 my-1">
                         <hr class="divider" style="width: 100%;">
                     </div>
+    <!-- SUBMIT RESULT -->  
+                    <div class="row justify-content-center" id="submitresult" hidden>
+                        <div class="col">
+                            <div class="row">
+                                <p class="col-auto fw-bold">Pickup Rate:</p>
+                                <p class="col-auto" id="puRATE" hidden></p>
+                                <p class="col-auto" id="puRATEdollar"><p>                                
+                            </div>
+                            <div class="row">
+                                <p class="col-auto fw-bold">FSC:</p>
+                                <p class="col-auto" id="orgFSC"></p>                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <p class="col-auto fw-bold">Delivery Rate:</p>
+                                <p class="col-auto" id="delRATE" hidden></p>
+                                <p class="col-auto" id="delRATEdollar"></p>
+                            </div>
+                            <div class="row">
+                                <p class="col-auto fw-bold">FSC:</p>
+                                <p class="col-auto" id="delFSC"></p>                                
+                            </div>
+                        </div>
+                        <div class="col-md-11 my-3 p-0">
+                            <hr class="divider" style="width: 100%;">
+                        </div>
+                    </div>
+
     <!-- calculate final submit button -->
                     <div class="col-md-12 container">
                         <div class="row justify-content-center align-items-md-center">
                             <div class="col-auto align-self-md-auto">
-                                <button type="submit" class="btn" style="background-color: #003080; color: white;">Submit</button>
+                                <input type="button" class="btn" value="Submit" style="background-color: #003080; color: white;" onclick="calculateFORM()"></input>
                             </div>
                             <div class="col-auto">
                                 <p class="text-md-center fs-6 m-4" >By clicking Submit you agree to ACT 2 Services
@@ -387,7 +472,7 @@
                 <small class="ps-3">September:</small>
                 <small>
                 <ul class="list-unstyled">
-                    <li><strong>LTL</strong> Fuel Surcharge - 33.0%</li>
+                    <li><strong>LTL</strong> Fuel Surcharge - <output name="Cltl"></output></li>
                     <li><strong>FTL</strong> Fuel Surcharge - 37.0%</li>
                     <li><strong>LOCAL</strong> PU&D Fuel Surcharge - 35.5%</li>
                 </ul>
@@ -469,13 +554,13 @@
                 <h5>Fuel Surcharge</h5>
                 <div class="list-group" id="fuel">
                         <h6 class="list-group-item" style="font-weight: bold;">August 2021</h6>
-                        <li><b>LTL</b> Fuel Surcharge -  32.5%</li>
-                        <li><b>FTL</b> Fuel Surcharge -  36.5%</li>
-                        <li><b>LOCAL </b>PU&D Fuel Surcharge - 35.0%</li>
+                        <li><b>LTL</b> Fuel Surcharge -  <output id="Pltl"></output></li>
+                        <li><b>FTL</b> Fuel Surcharge -  <output id="Pftl"></output> </li>
+                        <li><b>LOCAL </b>PU&D Fuel Surcharge - <output id="Plocal"></output></li>
                         <h6 class="list-group-item" style="font-weight: bold;">September 2021</h6>
-                        <li><b>LTL</b> Fuel Surcharge  -  33.0%</li>
-                        <li><b>FTL</b> Fuel Surcharge -  37.0%</li>
-                        <li><b>LOCAL </b>PU&D Fuel Surcharge - 35.5%</li>
+                        <li><b>LTL</b> Fuel Surcharge  -  <output name="Cltl"></output></li>
+                        <li><b>FTL</b> Fuel Surcharge -  <output id="Cftl"></output></li>
+                        <li><b>LOCAL </b>PU&D Fuel Surcharge - <output id="Clocal"></output></li>
                 </div>
             </div>
         </div>
@@ -548,14 +633,16 @@
         </div>
       </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/CSSRulePlugin.min.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="app.js"></script>
-    <script src="data.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/CSSRulePlugin.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+      <script src="calculator.js"></script>
+      <script src="app.js"></script>
 
 </body>
 </html>
