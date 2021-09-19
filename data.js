@@ -55,6 +55,7 @@ var AIRtransfer = document.getElementById("AIRtransfer");
 var recover = document.getElementById("recovery");
 var cfs = document.getElementById("CFStable");
 var sched = document.getElementById("schedtable")
+
 d3.csv("assets/local_rates.csv").then(function(data){
     columns = data.columns
     tabulate(local, data,columns)
@@ -123,7 +124,7 @@ function reverse(dataNAME, rate){
     
 }
 
-var resources = document.getElementById("resources").addEventListener("change",
+
 
 // Slide Function
 localB.onclick = function(){
@@ -137,7 +138,7 @@ localB.onclick = function(){
     dataNAME.textContent = nameTEXT;
     var rate = localBOX;
     datafloat(dataNAME, rate);
-    
+};
 slideB.onclick = function(){
     reverse(dataNAME,localBOX);
     reverse(dataNAME,linehaulBOX);
@@ -212,12 +213,3 @@ schedB.onclick = function(){
     var rate = schedBOX;
     datafloat(dataNAME, rate);
 };
-
-
-
-
-}
-)
-
-
-
